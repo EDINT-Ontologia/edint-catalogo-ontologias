@@ -205,7 +205,7 @@
   {
     "lista": "Clasificación de Inmuebles Catastrales",
     "descripcion": "Esquema de conceptos que agrupa las clasificaciones de inmuebles según el Catastro Inmobiliario Español. Basado en los Artículos 7 y 8 de la Ley del Catastro (RDLeg 1/2004). Incluye las clasificaciones: urbano, rústico y BICES.",
-    "dominio": "Inmobiliario",
+    "dominio": "Territorio",
     "vocabularios": [
       "edintcat"
     ],
@@ -214,7 +214,7 @@
   {
     "lista": "Usos de Inmuebles y Construcciones Catastrales",
     "descripcion": "Esquema de conceptos que agrupa los usos de inmuebles y construcciones según el Catastro Inmobiliario Español. Basado en los usos oficiales de valoración del RD 1020/1993. Incluye usos residencial, industrial, oficinas, comercial, deportivo y de ocio, entre otros.",
-    "dominio": "Inmobiliario",
+    "dominio": "Territorio",
     "vocabularios": [
       "edintcat"
     ],
@@ -223,7 +223,7 @@
   {
     "lista": "Tipos de Transacción Inmobiliaria",
     "descripcion": "Esquema de conceptos que define los tipos de transacción inmobiliaria en el contexto español. Incluye venta, alquiler y traspaso.",
-    "dominio": "Inmobiliario",
+    "dominio": "Territorio",
     "vocabularios": [
       "edintinm"
     ],
@@ -232,7 +232,7 @@
   {
     "lista": "Usos de Inmuebles de la Oferta Inmobiliaria",
     "descripcion": "Esquema de conceptos que define los usos de inmuebles según el Catastro Español aplicados a la oferta inmobiliaria. Incluye vivienda, local comercial, oficina, nave industrial y solar.",
-    "dominio": "Inmobiliario",
+    "dominio": "Territorio",
     "vocabularios": [
       "edintinm"
     ],
