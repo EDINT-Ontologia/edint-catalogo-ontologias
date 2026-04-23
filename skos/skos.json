@@ -138,5 +138,113 @@
         "dominio": "Medio Ambiente",
         "vocabularios": ["edintmed"],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-medio-ambiente/blob/main/kos/feature-of-interest.ttl"
-    }
+    },
+    {
+    "lista": "Tipos de Acceso a Equipamientos",
+    "descripcion": "Esquema de conceptos que agrupa los tipos de acceso a los espacios comerciales. Incluye acceso por puerta de calle, interior y por piso.",
+    "dominio": "Comercio",
+    "vocabularios": [
+      "edintcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-censo-locales/blob/main/kos/skos-AccessType.ttl"
+  },
+  {
+    "lista": "Estados de Tramitación de la Licencia de Comercio",
+    "descripcion": "Esquema de conceptos que agrupa los estados de tramitación de la licencia de comercio. Incluye los estados: concedida, denegada, en trámite y caducada.",
+    "dominio": "Comercio",
+    "vocabularios": [
+      "edintcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitStatus.ttl"
+  },
+  {
+    "lista": "Tipos de Licencias Comerciales",
+    "descripcion": "Esquema de conceptos que agrupa los tipos de licencias comerciales. Incluye tipos como APAL, DRAACT, DRAESP, CAMTI, CAMTC y DRVUT.",
+    "dominio": "Comercio",
+    "vocabularios": [
+      "edintcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitType.ttl"
+  },
+  {
+    "lista": "Situación de los Espacios Comerciales",
+    "descripcion": "Esquema de conceptos que agrupa las situaciones de los espacios comerciales. Incluye los estados: activo, cerrado, dado de baja, libre y en construcción.",
+    "dominio": "Comercio",
+    "vocabularios": [
+      "edintcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialSpaceStatus.ttl"
+  },
+  {
+    "lista": "Periodos de Funcionamiento de Terrazas",
+    "descripcion": "Esquema de conceptos que agrupa los periodos de funcionamiento de una terraza. Incluye los periodos anual y estacional.",
+    "dominio": "Comercio",
+    "vocabularios": [
+      "edintcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-censo-locales/blob/main/kos/skos-TerracePeriod.ttl"
+  },
+  {
+    "lista": "Tipos de Campaña Comercial",
+    "descripcion": "Esquema de conceptos que agrupa los tipos de campaña comercial. Incluye bono, descuento y revitalización.",
+    "dominio": "Comercio",
+    "vocabularios": [
+      "edintcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialCampaignType.ttl"
+  },
+  {
+    "lista": "Tipos de Evento Comercial",
+    "descripcion": "Esquema de conceptos que agrupa los tipos de evento comercial. Incluye feria, mercado temático y evento local.",
+    "dominio": "Comercio",
+    "vocabularios": [
+      "edintcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialEventType.ttl"
+  },
+  {
+    "lista": "Clasificación de Inmuebles Catastrales",
+    "descripcion": "Esquema de conceptos que agrupa las clasificaciones de inmuebles según el Catastro Inmobiliario Español. Basado en los Artículos 7 y 8 de la Ley del Catastro (RDLeg 1/2004). Incluye las clasificaciones: urbano, rústico y BICES.",
+    "dominio": "Inmobiliario",
+    "vocabularios": [
+      "edintcat"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-catastro/blob/main/kos/catastro-clase.ttl"
+  },
+  {
+    "lista": "Usos de Inmuebles y Construcciones Catastrales",
+    "descripcion": "Esquema de conceptos que agrupa los usos de inmuebles y construcciones según el Catastro Inmobiliario Español. Basado en los usos oficiales de valoración del RD 1020/1993. Incluye usos residencial, industrial, oficinas, comercial, deportivo y de ocio, entre otros.",
+    "dominio": "Inmobiliario",
+    "vocabularios": [
+      "edintcat"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-catastro/blob/main/kos/catastro-use.ttl"
+  },
+  {
+    "lista": "Tipos de Transacción Inmobiliaria",
+    "descripcion": "Esquema de conceptos que define los tipos de transacción inmobiliaria en el contexto español. Incluye venta, alquiler y traspaso.",
+    "dominio": "Inmobiliario",
+    "vocabularios": [
+      "edintinm"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-transaction-type.ttl"
+  },
+  {
+    "lista": "Usos de Inmuebles de la Oferta Inmobiliaria",
+    "descripcion": "Esquema de conceptos que define los usos de inmuebles según el Catastro Español aplicados a la oferta inmobiliaria. Incluye vivienda, local comercial, oficina, nave industrial y solar.",
+    "dominio": "Inmobiliario",
+    "vocabularios": [
+      "edintinm"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-uso.ttl"
+  },
+  {
+    "lista": "Tipos de Contrato de Empleo",
+    "descripcion": "Esquema de conceptos que agrupa los tipos de contrato utilizados en observaciones de empleo. Incluye contrato indefinido y contrato temporal.",
+    "dominio": "Actividad Económica",
+    "vocabularios": [
+      "edintemp"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-cubo-empleo/blob/main/kos/skos-contractType.ttl"
+  }
 ]

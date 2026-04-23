@@ -298,5 +298,245 @@
         "icon": "fas fa-file-alt"
       }
     ]
+  },
+  {
+    "vocabulario": "Ontología de Turismo",
+    "descripcion": "",
+    "prefijo": "",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-ontologia-turismo/refs/heads/main/documentation/index-en.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-ontologia-turismo/refs/heads/main/documentation/index-en.html"
+      }
+    ],
+    "dominio": "Turismo",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-ontologia-turismo",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-ontologia-turismo/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-ontologia-turismo/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Ontología de Establecimiento Comercial",
+    "descripcion": "Ontología para la representación de los espacios comerciales, sus agrupaciones y sus licencias. Proporciona un vocabulario común para las entidades y datos relacionados con los establecimientos comerciales de un municipio, incluyendo agrupaciones como mercados y centros comerciales, y las terrazas asociadas.",
+    "prefijo": "edintcom",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-ontologia-censo-locales/refs/heads/main/documentation/index-en.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-ontologia-censo-locales/refs/heads/main/documentation/index-en.html"
+      }
+    ],
+    "dominio": "Comercio",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-ontologia-censo-locales",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-ontologia-censo-locales/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-ontologia-censo-locales/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Ontología de Promoción Comercial",
+    "descripcion": "Ontología para la representación del dominio de las promociones comerciales, incluyendo eventos y campañas. Proporciona un vocabulario común para los datos relacionados con la promoción comercial. Quedan fuera del alcance otros aspectos del comercio como el censo de locales comerciales, objeto de una ontología específica dentro del mismo proyecto EDINT.",
+    "prefijo": "edintcom",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-ontologia-promocion-comercial/refs/heads/main/documentation/index-en.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-ontologia-promocion-comercial/refs/heads/main/documentation/index-en.html"
+      }
+    ],
+    "dominio": "Comercio",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-ontologia-promocion-comercial",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-ontologia-promocion-comercial/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-ontologia-promocion-comercial/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Ontología de Catastro",
+    "descripcion": "Ontología para la representación del Catastro Inmobiliario Español, centrada en parcelas catastrales, inmuebles catastrales y construcciones catastrales. Habilita la interoperabilidad de datos catastrales en el contexto de los datos enlazados. Quedan fuera del alcance la titularidad de bienes, valoración catastral, transmisiones y procesos administrativos.",
+    "prefijo": "edintcat",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-ontologia-catastro/refs/heads/main/documentation/index-en.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-ontologia-catastro/refs/heads/main/documentation/index-en.html"
+      }
+    ],
+    "dominio": "Territorio",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-ontologia-catastro",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-ontologia-catastro/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-ontologia-catastro/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Ontología de Oferta Inmobiliaria",
+    "descripcion": "Ontología para la representación de las ofertas inmobiliarias en el contexto español, centrada en anuncios inmobiliarios de venta, alquiler y traspaso, y su relación con entidades catastrales. Quedan fuera del alcance la valoración de inmuebles, procesos de intermediación, contratos y datos financieros.",
+    "prefijo": "edintinm",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/refs/heads/main/documentation/index-en.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/refs/heads/main/documentation/index-en.html"
+      }
+    ],
+    "dominio": "Territorio",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-ontologia-oferta-inmobiliaria",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Cubo de Gasto Comercial",
+    "descripcion": "Cubo de datos RDF para representar información agregada sobre gasto comercial según distintas dimensiones: región administrativa, periodo temporal, sector, actividad económica (CNAE) y nacionalidad. Desarrollado siguiendo el vocabulario RDF Data Cube para permitir consultas interoperables mediante SPARQL.",
+    "prefijo": "edintgast",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-cubo-gasto-comercial/refs/heads/main/documentation/index-en.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-cubo-gasto-comercial/refs/heads/main/documentation/index-en.html"
+      }
+    ],
+    "dominio": "Comercio",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-cubo-gasto-comercial",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-cubo-gasto-comercial/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-cubo-gasto-comercial/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Cubo de Indicadores de Empleo",
+    "descripcion": "Cubo de datos RDF para representar indicadores agregados de empleo según dimensiones como región administrativa, periodo temporal, sector, actividad económica (CNAE), sexo, edad y tipo de contrato. Las medidas incluyen número de activos, ocupados, parados, contratos registrados, demandantes de empleo, paro registrado y personas afiliadas a la Seguridad Social.",
+    "prefijo": "edintemp",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-cubo-empleo/refs/heads/main/documentation/index-en.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-cubo-empleo/refs/heads/main/documentation/index-en.html"
+      }
+    ],
+    "dominio": "Actividad Económica",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-cubo-empleo",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-cubo-empleo/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-cubo-empleo/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Cubo de Turismo",
+    "descripcion": "Cubo de datos RDF para representar conjuntos de datos turísticos incluyendo ocupación turística, flujo turístico e indicadores turísticos. Permite describir observaciones según territorio, periodo temporal, país de origen, tipo de flujo y número de registro del establecimiento. Las medidas abarcan estancia media, grado de ocupación, número de turistas, pernoctaciones y plazas disponibles, entre otras.",
+    "prefijo": "edinttur",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-cubo-turismo/refs/heads/main/documentation/index-en.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-cubo-turismo/refs/heads/main/documentation/index-en.html"
+      }
+    ],
+    "dominio": "Turismo",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-cubo-turismo",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-cubo-turismo/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-cubo-turismo/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
   }
 ]
