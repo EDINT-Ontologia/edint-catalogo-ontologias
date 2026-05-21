@@ -3,28 +3,28 @@
     "vocabulario": "Ontología de Infraestructura",
     "descripcion": "Ontología para la representación de la infraestructura pública de un municipio. Incluye centros educativos, sociales y culturales, deportivos, aparcamientos y estaciones de bicicletas compartidas.",
     "prefijo": "edintinf",
-    "documentacion": "https://raw.githack.com/telefonicasc/edint-ontologia-infraestructura/refs/heads/main/documentation/index-en.html",
+    "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-infraestructura/refs/heads/main/documentation/index-en.html",
     "formatos": [
       {
         "nombre": "HTML",
-        "url": "https://raw.githack.com/telefonicasc/edint-ontologia-infraestructura/refs/heads/main/documentation/index-en.html"
+        "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-infraestructura/refs/heads/main/documentation/index-en.html"
       }
     ],
     "dominio": "Infraestructura Urbana",
     "recursos": [
       {
         "nombre": "Repositorio",
-        "url": "https://github.com/telefonicasc/edint-ontologia-infraestructura",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura",
         "icon": "fab fa-github"
       },
       {
         "nombre": "Issues",
-        "url": "https://github.com/telefonicasc/edint-ontologia-infraestructura/issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/issues",
         "icon": "fas fa-bug"
       },
       {
         "nombre": "Requisitos",
-        "url": "https://github.com/telefonicasc/edint-ontologia-infraestructura/tree/main/requirements",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/tree/main/requirements",
         "icon": "fas fa-file-alt"
       }
     ]
