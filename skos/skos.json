@@ -4,77 +4,77 @@
         "descripcion": "Esquema de conceptos agrupando tipos de elementos de infraestructura. Incluye clasificación jerárquica de equipamientos (instalaciones deportivas, culturales, sanitarias, educativas) y elementos urbanos (mobiliario, señalización, gestión de residuos).",
         "dominio": "Infraestructura Urbana",
         "vocabularios": ["edintinf"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-infraestructura/blob/main/kos/skos-InfrastructureType.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-InfrastructureType.ttl"
     },
     {
         "lista": "Tipos de Servicio Público",
         "descripcion": "Esquema de conceptos agrupando tipos de servicios públicos prestados en un equipamiento. Incluye servicios complementarios (wifi, cafetería) y servicios de centros de salud (asistencia médica, programas de salud, fisioterapia).",
         "dominio": "Infraestructura Urbana",
         "vocabularios": ["edintinf"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-infraestructura/blob/main/kos/skos-PublicService.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-PublicService.ttl"
     },
     {
         "lista": "Tipos de Actividad Regular",
         "descripcion": "Esquema de conceptos agrupando tipos de actividades que se ofrecen regularmente en un equipamiento. Especializado en actividades de centros culturales (exposiciones, conciertos, teatro, talleres).",
         "dominio": "Infraestructura Urbana",
         "vocabularios": ["edintinf"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-infraestructura/blob/main/kos/skos-RegularActivity.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-RegularActivity.ttl"
     },
     {
         "lista": "Tipos de Rol",
         "descripcion": "Esquema de conceptos agrupando tipos de roles de gestión que ejerce una organización sobre un elemento de la infraestructura. Incluye servicios básicos, seguridad, recursos humanos y mantenimiento.",
         "dominio": "Infraestructura Urbana",
         "vocabularios": ["edintinf"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-infraestructura/blob/main/kos/skos-RoleType.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-RoleType.ttl"
     },
     {
         "lista": "Tipos de Violación de Acceso",
         "descripcion": "Esquema de conceptos agrupando tipos de violaciones de acceso de personas y vehículos. Clasificación por gravedad (leve, grave, muy grave) y tipos específicos (acceso no autorizado a zonas de bajas emisiones o peatonales).",
         "dominio": "Infraestructura Urbana",
         "vocabularios": ["edintinf"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-infraestructura/blob/main/kos/skos-ViolationType.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-ViolationType.ttl"
     },
     {
         "lista": "Tipos de Vehículo",
         "descripcion": "Esquema de conceptos agrupando tipos de vehículos. Incluye turismos, autobuses, camiones, furgonetas, cuatriciclos, todoterrenos, vehículos articulados, vehículos adaptados PMR, vehículos vivienda, ambulancias y vehículos mixtos.",
         "dominio": "Transporte",
         "vocabularios": ["edintveh"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-censovehiculos/blob/main/kos/skos-VehicleType.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehicleType.ttl"
     },
     {
         "lista": "Tipos de Propulsión de Vehículo",
         "descripcion": "Esquema de conceptos agrupando tipos de propulsión de vehículos. Incluye gasolina sin plomo, diésel, gas butano, GLP, gas natural comprimido/licuado, eléctrico, híbrido enchufable/no enchufable, y otros.",
         "dominio": "Transporte",
         "vocabularios": ["edintveh"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePropulsionType.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePropulsionType.ttl"
     },
     {
         "lista": "Tipos de Distintivo Medioambiental",
         "descripcion": "Esquema de conceptos agrupando tipos de distintivos medioambientales de vehículos. Clasificación oficial española: Eco, B, C, Cero Emisiones, y Sin distintivo.",
         "dominio": "Transporte",
         "vocabularios": ["edintveh"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-censovehiculos/blob/main/kos/skos-VehicleEnvironmentalBadge.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehicleEnvironmentalBadge.ttl"
     },
     {
         "lista": "Tipos de Autorización de Vehículo",
         "descripcion": "Esquema de conceptos agrupando tipos de autorización de vehículos. Incluye residentes, comercial-industrial, temporal, taller/garaje, servicios sanitarios y servicios esenciales.",
         "dominio": "Transporte",
         "vocabularios": ["edintveh"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitType.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitType.ttl"
     },
     {
         "lista": "Estados de Autorización de Vehículo",
         "descripcion": "Esquema de conceptos agrupando estados de autorización de vehículos. Estados: Activo, Baja, Rechazado y En trámite.",
         "dominio": "Transporte",
         "vocabularios": ["edintveh"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitStatus.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitStatus.ttl"
     },
     {
         "lista": "Periodicidades de Autorización de Vehículo",
         "descripcion": "Esquema de conceptos agrupando periodicidades de autorización de vehículos. Periodicidades: Anual y Mensual.",
         "dominio": "Transporte",
         "vocabularios": ["edintveh"],
-        "enlace": "https://github.com/oeg-upm/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitPeriodicity.ttl"
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitPeriodicity.ttl"
     },
     {
         "lista": "Estados de Instalación Fotovoltaica",
@@ -146,7 +146,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-censo-locales/blob/main/kos/skos-AccessType.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-AccessType.ttl"
   },
   {
     "lista": "Estados de Tramitación de la Licencia de Comercio",
@@ -155,7 +155,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitStatus.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitStatus.ttl"
   },
   {
     "lista": "Tipos de Licencias Comerciales",
@@ -164,7 +164,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitType.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitType.ttl"
   },
   {
     "lista": "Situación de los Espacios Comerciales",
@@ -173,7 +173,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialSpaceStatus.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialSpaceStatus.ttl"
   },
   {
     "lista": "Periodos de Funcionamiento de Terrazas",
@@ -182,7 +182,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-censo-locales/blob/main/kos/skos-TerracePeriod.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-TerracePeriod.ttl"
   },
   {
     "lista": "Tipos de Campaña Comercial",
@@ -191,7 +191,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialCampaignType.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialCampaignType.ttl"
   },
   {
     "lista": "Tipos de Evento Comercial",
@@ -200,7 +200,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialEventType.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialEventType.ttl"
   },
   {
     "lista": "Clasificación de Inmuebles Catastrales",
@@ -209,7 +209,7 @@
     "vocabularios": [
       "edintcat"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-catastro/blob/main/kos/catastro-clase.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro/blob/main/kos/catastro-clase.ttl"
   },
   {
     "lista": "Usos de Inmuebles y Construcciones Catastrales",
@@ -218,7 +218,7 @@
     "vocabularios": [
       "edintcat"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-catastro/blob/main/kos/catastro-use.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro/blob/main/kos/catastro-use.ttl"
   },
   {
     "lista": "Tipos de Transacción Inmobiliaria",
@@ -227,7 +227,7 @@
     "vocabularios": [
       "edintinm"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-transaction-type.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-transaction-type.ttl"
   },
   {
     "lista": "Usos de Inmuebles de la Oferta Inmobiliaria",
@@ -236,7 +236,7 @@
     "vocabularios": [
       "edintinm"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-uso.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-uso.ttl"
   },
   {
     "lista": "Tipos de Contrato de Empleo",
@@ -245,6 +245,6 @@
     "vocabularios": [
       "edintemp"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-cubo-empleo/blob/main/kos/skos-contractType.ttl"
+    "enlace": "https://github.com/EDINT-Ontologia/edint-cubo-empleo/blob/main/kos/skos-contractType.ttl"
   }
 ]
