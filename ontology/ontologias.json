@@ -538,5 +538,185 @@
         "icon": "fas fa-file-alt"
       }
     ]
+  },
+  {
+    "vocabulario": "Tráfico de vehículos en las ciudades",
+    "descripcion": "Ontología para representar datos de medición del tráfico de vehículos de una ciudad, así como incidencias planificadas y no planificadas. Incluye observaciones de control de velocidad y acceso de vehículos específicos, y proporciona un vocabulario común para representar mediciones como intensidad, densidad y ocupación, además de incidencias de tráfico y su geolocalización.",
+    "prefijo": "edinttraf",
+    "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-trafico/refs/heads/main/documentation/index-es.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-trafico/refs/heads/main/documentation/index-es.html"
+      }
+    ],
+    "dominio": "Transporte",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Alumbrado Público",
+    "descripcion": "Ontología para la representación de datos de alumbrado público en el contexto de la Federación Española de Municipios y Provincias. Permite la publicación de inventarios de farolas como datos abiertos vinculados, la auditoría energética del consumo eléctrico y la evaluación del estado de conservación de las instalaciones. Su alcance cubre composición modular de farolas, infraestructura eléctrica, consumo energético, catálogo de modelos, parámetros fotométricos y contaminación lumínica.",
+    "prefijo": "edintalu",
+    "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/refs/heads/main/documentation/index-es.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/refs/heads/main/documentation/index-es.html"
+      }
+    ],
+    "dominio": "Urbanismo e infraestructuras",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Servicios Públicos",
+    "descripcion": "Ontología para representar el dominio de los servicios públicos municipales ofrecidos a la ciudadanía, incluyendo procedimientos administrativos asociados, organizaciones públicas responsables, canales de prestación, puntos de contacto, reglas aplicables y clasificación de servicios mediante vocabularios controlados. Reutiliza como referencia CPSV-AP y adapta el modelo al contexto de los servicios públicos municipales, incorporando elementos como estado del procedimiento, periodo de resolución y esquemas de clasificación específicos.",
+    "prefijo": "edintserpub",
+    "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/refs/heads/main/documentation/index-es.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/refs/heads/main/documentation/index-es.html"
+      }
+    ],
+    "dominio": "Sector público",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Organizaciones Públicas",
+    "descripcion": "Ontología para representar el dominio de los organismos públicos y sus organigramas en España. Proporciona un vocabulario común para la representación de organizaciones públicas y aspectos relacionados con los organigramas dentro de dichas organizaciones. Es una actualización de una versión previa que extendía la W3C Organization Ontology y adapta esa ontología para cubrir los requisitos de EDINT.",
+    "prefijo": "edintorg",
+    "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-organizaciones/refs/heads/main/documentation/index-es.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-organizaciones/refs/heads/main/documentation/index-es.html"
+      }
+    ],
+    "dominio": "Sector público",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Agenda",
+    "descripcion": "Ontología para representar eventos culturales, deportivos y sociales que se llevan a cabo en una ciudad. Proporciona un vocabulario común para la representación de datos principales de eventos de un municipio. Su alcance incluye tipos de eventos representados mediante una taxonomía y el lugar donde se llevan a cabo, como elementos de la infraestructura municipal.",
+    "prefijo": "edintagenda",
+    "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-agenda/refs/heads/main/documentation/index-es.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-agenda/refs/heads/main/documentation/index-es.html"
+      }
+    ],
+    "dominio": "Cultura y ocio",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Vehículos Compartidos",
+    "descripcion": "Ontología para la representación de datos sobre sistemas de vehículos compartidos en las ciudades. Representa datos de sistemas de vehículos compartidos, incluyendo sistemas basados en estaciones con sensores en sus anclajes y sistemas libres, en los que el vehículo puede encontrarse en lugares de aparcamiento permitido y ubicarse mediante datos geoespaciales. También representa datos de los trayectos realizados por estos vehículos, incluyendo punto de origen y destino.",
+    "prefijo": "edintvehcom",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-ontologia-vehiculos-compartidos/refs/heads/main/documentation/index-es.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-ontologia-vehiculos-compartidos/refs/heads/main/documentation/index-es.html"
+      }
+    ],
+    "dominio": "Transporte",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
   }
 ]

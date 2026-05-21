@@ -246,5 +246,230 @@
       "edintemp"
     ],
     "enlace": "https://github.com/EDINT-Ontologia/edint-cubo-empleo/blob/main/kos/skos-contractType.ttl"
+  },
+  {
+    "lista": "Tipo de Incidencia",
+    "descripcion": "Tesauro que recoge los tipos de incidencia; es decir los hechos ocurridos en la ciudad tales como obras o accidentes y que afectan a la circulación de vehículos.",
+    "dominio": "Transporte",
+    "vocabularios": [
+      "edinttraf"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico/blob/main/kos/skos-IncidenceType.ttl"
+  },
+  {
+    "lista": "Tipo de Equipo de Tráfico",
+    "descripcion": "Tesauro que recoge los tipos de equipo de tráfico; es decir tanto los dispositivos que permiten controlar el tráfico como los dispositivos que permiten la realización del conteo de vehículos (intensidad del tráfico) junto con la obtención del grado de ocupación de la vía.",
+    "dominio": "Transporte",
+    "vocabularios": [
+      "edinttraf"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico/blob/main/kos/skos-TrafficEquipmentType.ttl"
+  },
+  {
+    "lista": "Tipos de cable en caja de conexiones",
+    "descripcion": "Tipos de cable en la caja de conexiones de la farola según especificación técnica.",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-CableType.ttl"
+  },
+  {
+    "lista": "Estado de conservación de farolas",
+    "descripcion": "Estado de conservación de la farola según la metodología EIEL. 5 niveles: Excelente, Bueno, Regular, Malo, En ejecución. Basado en Castellón (B/R/M/E) y La Palma (B/R/M).",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-ConservationStatus.ttl"
+  },
+  {
+    "lista": "Régimen de iluminación",
+    "descripcion": "Clasificación del régimen de iluminación: nocturna o permanente.",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-IlluminationRegime.ttl"
+  },
+  {
+    "lista": "Clases de iluminación según EN 13201",
+    "descripcion": "Clases de alumbrado vial según la norma UNE-EN 13201. Clases M (calzadas), C (zonas de conflicto), S (peatonales).",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-IlluminationType.ttl"
+  },
+  {
+    "lista": "Tipos de lámpara de alumbrado público",
+    "descripcion": "Taxonomía de tipos de lámpara (tecnología de fuente de luz). 12 conceptos.",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LampType.ttl"
+  },
+  {
+    "lista": "Clases luminotécnicas según EN 13201",
+    "descripcion": "Clasificación luminotécnica según la norma UNE-EN 13201 para determinar los requisitos mínimos de alumbrado. A: autopistas, B: arteriales, C: colectoras, D: residenciales, E: peatonales.",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LightingClass.ttl"
+  },
+  {
+    "lista": "Zonas de alumbrado según REEAE",
+    "descripcion": "Clasificación de zonas ambientales de alumbrado según el Reglamento de Eficiencia Energética de Instalaciones de Alumbrado Exterior (REEAE, RD 1890/2008). E1: máxima protección, E2: alta, E3: media, E4: baja.",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LightingZone.ttl"
+  },
+  {
+    "lista": "Tipos de luminaria de alumbrado público",
+    "descripcion": "Taxonomía de tipos de luminaria según su forma y uso. 8 conceptos.",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LuminaireType.ttl"
+  },
+  {
+    "lista": "Tipos de alimentación eléctrica",
+    "descripcion": "Taxonomía de tipos de alimentación eléctrica de farolas. Ampliada de 3 a 5 conceptos según Tenerife.",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-PowerSupplyType.ttl"
+  },
+  {
+    "lista": "Tipos de soporte de alumbrado público",
+    "descripcion": "Taxonomía de tipos de soporte físico de farolas. Ampliada de 5 conceptos (v1.0-rc) a ~35 según Tenerife y Navarra.",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-SupportType.ttl"
+  },
+  {
+    "lista": "Período tarifario",
+    "descripcion": "Períodos horarios de facturación eléctrica según la regulación española.",
+    "dominio": "Urbanismo e infraestructuras",
+    "vocabularios": [
+      "edintalu"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-TariffPeriod.ttl"
+  },
+  {
+    "lista": "Tipos de procedimientos administrativos",
+    "descripcion": "Vocabulario controlado básico para clasificar procedimientos administrativos ofrecidos por una administración pública.",
+    "dominio": "Sector público",
+    "vocabularios": [
+      "edintserpub"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/blob/main/kos/skos-AdministrativeProcedures.ttl"
+  },
+  {
+    "lista": "Tipos de servicios públicos",
+    "descripcion": "Vocabulario controlado para clasificar servicios públicos municipales.",
+    "dominio": "Sector público",
+    "vocabularios": [
+      "edintserpub"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/blob/main/kos/skos-PublicServices.ttl"
+  },
+  {
+    "lista": "Nivel de administración",
+    "descripcion": "Esquema de conceptos que agrupa niveles de las organizaciones de la administración pública",
+    "dominio": "Sector público",
+    "vocabularios": [
+      "edintorg"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-AdministrationLevel.ttl"
+  },
+  {
+    "lista": "Estado de organización",
+    "descripcion": "Esquema de conceptos que agrupa estados de las organizaciones de la administración pública",
+    "dominio": "Sector público",
+    "vocabularios": [
+      "edintorg"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-OrganizationStatus.ttl"
+  },
+  {
+    "lista": "Tipo de organización",
+    "descripcion": "Esquema de conceptos que agrupa tipos de las organizaciones de la administración pública",
+    "dominio": "Sector público",
+    "vocabularios": [
+      "edintorg"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-OrganizationType.ttl"
+  },
+  {
+    "lista": "Modalidad de asistencia",
+    "descripcion": "Valores basados inicialmente en las modalidades de asistencia usadas para describir eventos culturales, deportivos y sociales en conjuntos de datos públicos de agenda.",
+    "dominio": "Cultura y ocio",
+    "vocabularios": [
+      "edintagenda"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-attendance-mode.ttl"
+  },
+  {
+    "lista": "Estado del evento",
+    "descripcion": "Valores basados inicialmente en los estados usados para describir eventos culturales, deportivos y sociales en conjuntos de datos públicos de agenda.",
+    "dominio": "Cultura y ocio",
+    "vocabularios": [
+      "edintagenda"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-event-status.ttl"
+  },
+  {
+    "lista": "Tipo de evento",
+    "descripcion": "Valores basados inicialmente en las categorías temáticas usadas en conjuntos de datos públicos de agenda de administraciones locales y autonómicas españolas.",
+    "dominio": "Cultura y ocio",
+    "vocabularios": [
+      "edintagenda"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-event-type.ttl"
+  },
+  {
+    "lista": "Estado del anclaje",
+    "descripcion": "Esquema de conceptos agrupando estados de anclaje",
+    "dominio": "Transporte",
+    "vocabularios": [
+      "edintvehcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/refs/heads/main/kos/skos-DockState.ttl"
+  },
+  {
+    "lista": "Tipo de sistema de propulsión",
+    "descripcion": "Esquema de conceptos agrupando tipos de sistema de propulsión",
+    "dominio": "Transporte",
+    "vocabularios": [
+      "edintvehcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-PropulsionSystemType.ttl"
+  },
+  {
+    "lista": "Estado de la estación",
+    "descripcion": "Esquema de conceptos agrupando estados de estación",
+    "dominio": "Transporte",
+    "vocabularios": [
+      "edintvehcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-StationState.ttl"
+  },
+  {
+    "lista": "Estado del vehículo",
+    "descripcion": "Esquema de conceptos agrupando estados de vehículo",
+    "dominio": "Transporte",
+    "vocabularios": [
+      "edintvehcom"
+    ],
+    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-VehicleState.ttl"
   }
 ]
