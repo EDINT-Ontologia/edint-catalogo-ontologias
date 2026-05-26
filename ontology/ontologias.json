@@ -10,7 +10,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-infraestructura/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Infraestructura Urbana",
+    "dominio": "Infraestructura urbana",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -40,7 +40,7 @@
         "url": "https://raw.githack.com/telefonicasc/edint-ontologia-zonaregulatoria/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Movilidad Urbana",
+    "dominio": "Movilidad y transporte",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -70,7 +70,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-censovehiculos/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Transporte",
+    "dominio": "Movilidad y transporte",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -100,7 +100,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-aparcamiento/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Transporte",
+    "dominio": "Movilidad y transporte",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -190,7 +190,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-contaminacion-acustica/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Medio Ambiente",
+    "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -213,14 +213,14 @@
     "vocabulario": "Ontología de Calidad del Aire",
     "descripcion": "Ontología para la representación de datos de calidad del aire. Reutiliza el patrón de Sensores Medioambientales para representar estaciones, sensores y observaciones de calidad del aire (NO2, O3, PM10, etc.).",
     "prefijo": "edintmed",
-    "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-calidad-aire/refs/heads/main/documentation/index-es.html",
+    "documentacion": "https://github.com/EDINT-Ontologia/edint-ontologia-calidad-aire",
     "formatos": [
       {
         "nombre": "HTML",
-        "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-calidad-aire/refs/heads/main/documentation/index-es.html"
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-calidad-aire"
       }
     ],
-    "dominio": "Medio Ambiente",
+    "dominio": "Medio ambiente y sostenibilidad",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -243,14 +243,14 @@
     "vocabulario": "Ontología de Climatología",
     "descripcion": "Ontología para la representación de datos climatológicos. Ejemplos de uso concretos de la ontología de Sensores Medioambientales para magnitudes climatológicas.",
     "prefijo": "edintmed",
-    "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-climatologia/refs/heads/main/documentation/index-es.html",
+    "documentacion": "https://github.com/EDINT-Ontologia/edint-ontologia-climatologia",
     "formatos": [
       {
         "nombre": "HTML",
-        "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-climatologia/refs/heads/main/documentation/index-es.html"
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-climatologia"
       }
     ],
-    "dominio": "Medio Ambiente",
+    "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -280,7 +280,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-medio-ambiente/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Medio Ambiente",
+    "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -310,7 +310,7 @@
         "url": "https://raw.githack.com/oeg-upm/edint-ontologia-turismo/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Turismo",
+    "dominio": "Economía y sociedad",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -340,7 +340,7 @@
         "url": "https://raw.githack.com/oeg-upm/edint-ontologia-censo-locales/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Comercio",
+    "dominio": "Economía y sociedad",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -370,7 +370,7 @@
         "url": "https://raw.githack.com/oeg-upm/edint-ontologia-promocion-comercial/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Comercio",
+    "dominio": "Economía y sociedad",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -400,7 +400,7 @@
         "url": "https://raw.githack.com/oeg-upm/edint-ontologia-catastro/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Territorio",
+    "dominio": "Geoespacial y localización",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -430,7 +430,7 @@
         "url": "https://raw.githack.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Territorio",
+    "dominio": "Economía y sociedad",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -460,7 +460,7 @@
         "url": "https://raw.githack.com/oeg-upm/edint-cubo-gasto-comercial/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Comercio",
+    "dominio": "Economía y sociedad",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -490,7 +490,7 @@
         "url": "https://raw.githack.com/oeg-upm/edint-cubo-empleo/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Actividad Económica",
+    "dominio": "Economía y sociedad",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -520,7 +520,7 @@
         "url": "https://raw.githack.com/oeg-upm/edint-cubo-turismo/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Turismo",
+    "dominio": "Economía y sociedad",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -550,7 +550,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-trafico/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Transporte",
+    "dominio": "Movilidad y transporte",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -580,7 +580,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Urbanismo e infraestructuras",
+    "dominio": "Infraestructura urbana",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -610,7 +610,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Sector público",
+    "dominio": "Gobernanza y administración pública",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -640,7 +640,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-organizaciones/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Sector público",
+    "dominio": "Gobernanza y administración pública",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -670,7 +670,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-agenda/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Cultura y ocio",
+    "dominio": "Economía y sociedad",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -700,7 +700,7 @@
         "url": "https://raw.githack.com/oeg-upm/edint-ontologia-vehiculos-compartidos/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Transporte",
+    "dominio": "Movilidad y transporte",
     "recursos": [
       {
         "nombre": "Repositorio",
