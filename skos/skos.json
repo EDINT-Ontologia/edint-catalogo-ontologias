@@ -509,5 +509,32 @@
             "edintvehcom"
         ],
         "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-VehicleState.ttl"
-    }
+    },
+     {
+    "lista": "Alcances de gestión",
+    "descripcion": "Esquema de conceptos para los alcances de gestión asociados a centros de gestión de residuos.",
+    "dominio": "Medio ambiente y sostenibilidad",
+    "vocabularios": [
+      "waste"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-gestion-residuos/blob/main/kos/skos-ManagementScope.ttl"
+  },
+  {
+    "lista": "Procesos de tratamiento",
+    "descripcion": "Esquema de conceptos para los procesos de tratamiento aplicados en centros de gestión de residuos.",
+    "dominio": "Medio ambiente y sostenibilidad",
+    "vocabularios": [
+      "waste"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-gestion-residuos/blob/main/kos/skos-TreatmentProcess.ttl"
+  },
+  {
+    "lista": "Tipos de residuos",
+    "descripcion": "Esquema de conceptos para los tipos de residuos gestionados, aceptados o recogidos.",
+    "dominio": "Medio ambiente y sostenibilidad",
+    "vocabularios": [
+      "waste"
+    ],
+    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-gestion-residuos/blob/main/kos/skos-WasteType.ttl"
+  }
 ]
