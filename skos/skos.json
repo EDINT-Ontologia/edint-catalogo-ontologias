@@ -2,474 +2,512 @@
     {
         "lista": "Tipos de Infraestructura",
         "descripcion": "Esquema de conceptos agrupando tipos de elementos de infraestructura. Incluye clasificación jerárquica de equipamientos (instalaciones deportivas, culturales, sanitarias, educativas) y elementos urbanos (mobiliario, señalización, gestión de residuos).",
-        "dominio": "Infraestructura Urbana",
-        "vocabularios": ["edintinf"],
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [             "edintinf"        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-InfrastructureType.ttl"
     },
     {
         "lista": "Tipos de Servicio Público",
         "descripcion": "Esquema de conceptos agrupando tipos de servicios públicos prestados en un equipamiento. Incluye servicios complementarios (wifi, cafetería) y servicios de centros de salud (asistencia médica, programas de salud, fisioterapia).",
-        "dominio": "Infraestructura Urbana",
-        "vocabularios": ["edintinf"],
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintinf"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-PublicService.ttl"
     },
     {
         "lista": "Tipos de Actividad Regular",
         "descripcion": "Esquema de conceptos agrupando tipos de actividades que se ofrecen regularmente en un equipamiento. Especializado en actividades de centros culturales (exposiciones, conciertos, teatro, talleres).",
-        "dominio": "Infraestructura Urbana",
-        "vocabularios": ["edintinf"],
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintinf"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-RegularActivity.ttl"
     },
     {
         "lista": "Tipos de Rol",
         "descripcion": "Esquema de conceptos agrupando tipos de roles de gestión que ejerce una organización sobre un elemento de la infraestructura. Incluye servicios básicos, seguridad, recursos humanos y mantenimiento.",
-        "dominio": "Infraestructura Urbana",
-        "vocabularios": ["edintinf"],
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintinf"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-RoleType.ttl"
     },
     {
         "lista": "Tipos de Violación de Acceso",
         "descripcion": "Esquema de conceptos agrupando tipos de violaciones de acceso de personas y vehículos. Clasificación por gravedad (leve, grave, muy grave) y tipos específicos (acceso no autorizado a zonas de bajas emisiones o peatonales).",
-        "dominio": "Infraestructura Urbana",
-        "vocabularios": ["edintinf"],
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintinf"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-ViolationType.ttl"
     },
     {
         "lista": "Tipos de Vehículo",
         "descripcion": "Esquema de conceptos agrupando tipos de vehículos. Incluye turismos, autobuses, camiones, furgonetas, cuatriciclos, todoterrenos, vehículos articulados, vehículos adaptados PMR, vehículos vivienda, ambulancias y vehículos mixtos.",
-        "dominio": "Transporte",
-        "vocabularios": ["edintveh"],
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edintveh"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehicleType.ttl"
     },
     {
         "lista": "Tipos de Propulsión de Vehículo",
         "descripcion": "Esquema de conceptos agrupando tipos de propulsión de vehículos. Incluye gasolina sin plomo, diésel, gas butano, GLP, gas natural comprimido/licuado, eléctrico, híbrido enchufable/no enchufable, y otros.",
-        "dominio": "Transporte",
-        "vocabularios": ["edintveh"],
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edintveh"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePropulsionType.ttl"
     },
     {
         "lista": "Tipos de Distintivo Medioambiental",
         "descripcion": "Esquema de conceptos agrupando tipos de distintivos medioambientales de vehículos. Clasificación oficial española: Eco, B, C, Cero Emisiones, y Sin distintivo.",
-        "dominio": "Transporte",
-        "vocabularios": ["edintveh"],
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edintveh"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehicleEnvironmentalBadge.ttl"
     },
     {
         "lista": "Tipos de Autorización de Vehículo",
         "descripcion": "Esquema de conceptos agrupando tipos de autorización de vehículos. Incluye residentes, comercial-industrial, temporal, taller/garaje, servicios sanitarios y servicios esenciales.",
-        "dominio": "Transporte",
-        "vocabularios": ["edintveh"],
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edintveh"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitType.ttl"
     },
     {
         "lista": "Estados de Autorización de Vehículo",
         "descripcion": "Esquema de conceptos agrupando estados de autorización de vehículos. Estados: Activo, Baja, Rechazado y En trámite.",
-        "dominio": "Transporte",
-        "vocabularios": ["edintveh"],
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edintveh"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitStatus.ttl"
     },
     {
         "lista": "Periodicidades de Autorización de Vehículo",
         "descripcion": "Esquema de conceptos agrupando periodicidades de autorización de vehículos. Periodicidades: Anual y Mensual.",
-        "dominio": "Transporte",
-        "vocabularios": ["edintveh"],
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edintveh"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitPeriodicity.ttl"
     },
     {
         "lista": "Estados de Instalación Fotovoltaica",
         "descripcion": "Esquema de conceptos agrupando tipos de estado de las instalaciones fotovoltaicas. Estados: Operativo, Fuera de servicio y Parcial.",
         "dominio": "Energía",
-        "vocabularios": ["edintfotov"],
+        "vocabularios": [
+            "edintfotov"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-fotovoltaica/blob/main/kos/skos-PhotovoltaicSystemStatus.ttl"
     },
     {
         "lista": "Tipos de Uso de Instalación Fotovoltaica",
         "descripcion": "Esquema de conceptos agrupando tipos de uso de la instalación fotovoltaica. Usos: Conectado a la red (Grid), Autónomo (Stand-alone) e Híbrido.",
         "dominio": "Energía",
-        "vocabularios": ["edintfotov"],
+        "vocabularios": [
+            "edintfotov"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-fotovoltaica/blob/main/kos/skos-PhotovoltaicSystemUsageType.ttl"
     },
     {
         "lista": "Tipos de Medidor",
         "descripcion": "Esquema de conceptos agrupando tipos de medidores utilizados para medir el consumo de suministros. Tipos: Externo, Procesado y Telemedida.",
         "dominio": "Energía",
-        "vocabularios": ["edintsum"],
+        "vocabularios": [
+            "edintsum"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-suministro/blob/main/kos/skos-MeterType.ttl"
     },
     {
         "lista": "Tipos de Suministro",
         "descripcion": "Esquema de conceptos agrupando tipos de suministros a los elementos de la infraestructura de un municipio. Incluye energía (activa, reactiva) y gas.",
         "dominio": "Energía",
-        "vocabularios": ["edintsum"],
+        "vocabularios": [
+            "edintsum"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-suministro/blob/main/kos/skos-UtilityType.ttl"
     },
     {
         "lista": "Tipos de Emisor de Ruido Predominante",
         "descripcion": "Esquema de conceptos que agrupa tipos de emisores de ruido o vibración basado en el artículo 12.2 de la Ley 37/2003 del Ruido. Incluye vehículos, ferrocarriles, aeronaves, industrias, infraestructuras y actividades comerciales/deportivas.",
-        "dominio": "Medio Ambiente",
-        "vocabularios": ["edintacus"],
+        "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+        "vocabularios": [
+            "edintacus"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-contaminacion-acustica/blob/main/kos/skos-EmitterPredominantType.ttl"
     },
     {
         "lista": "Tipos de Índice de Ruido",
         "descripcion": "Esquema de conceptos que agrupa tipos de índice de ruido o vibración. Incluye niveles equivalentes (LAeq, LAeq24), niveles estadísticos (LAS01, LAS10, LAS50, LAS90, LAS99) e índices de vibración (LAw).",
-        "dominio": "Medio Ambiente",
-        "vocabularios": ["edintacus"],
+        "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+        "vocabularios": [
+            "edintacus"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-contaminacion-acustica/blob/main/kos/skos-NoiseRateType.ttl"
     },
     {
         "lista": "Intervalos de Referencia",
         "descripcion": "Esquema de conceptos que agrupa tipos de periodos de medición para observaciones de calidad acústica. Periodos: T (total), D (día), E (tarde), N (noche).",
-        "dominio": "Medio Ambiente",
-        "vocabularios": ["edintacus"],
+        "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+        "vocabularios": [
+            "edintacus"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-contaminacion-acustica/blob/main/kos/skos-ReferenceInterval.ttl"
     },
     {
         "lista": "Variables de Sensor",
         "descripcion": "Esquema de conceptos agrupando magnitudes medidas por sensores en entornos urbanos. Vocabulario jerárquico de propiedades físicas, químicas y acústicas (meteorológicas, calidad del aire, acústicas, agua, suelo, tráfico, energía, residuos) con unidades QUDT asociadas.",
-        "dominio": "Medio Ambiente",
-        "vocabularios": ["edintmed"],
+        "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+        "vocabularios": [
+            "edintmed"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-medio-ambiente/blob/main/kos/sensor-variables.ttl"
     },
     {
         "lista": "Características de Interés",
         "descripcion": "Esquema de conceptos agrupando características de interés observables por sensores según la ontología SOSA. Vocabulario de features of interest con enlaces directos a propiedades observables en el esquema SensorVariables (aire, suelo, calzada, viento, precipitación, radiación, entorno acústico, agua potable).",
-        "dominio": "Medio Ambiente",
-        "vocabularios": ["edintmed"],
+        "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+        "vocabularios": [
+            "edintmed"
+        ],
         "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-medio-ambiente/blob/main/kos/feature-of-interest.ttl"
     },
     {
-    "lista": "Tipos de Acceso a Equipamientos",
-    "descripcion": "Esquema de conceptos que agrupa los tipos de acceso a los espacios comerciales. Incluye acceso por puerta de calle, interior y por piso.",
-    "dominio": "Comercio",
-    "vocabularios": [
-      "edintcom"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-AccessType.ttl"
-  },
-  {
-    "lista": "Estados de Tramitación de la Licencia de Comercio",
-    "descripcion": "Esquema de conceptos que agrupa los estados de tramitación de la licencia de comercio. Incluye los estados: concedida, denegada, en trámite y caducada.",
-    "dominio": "Comercio",
-    "vocabularios": [
-      "edintcom"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitStatus.ttl"
-  },
-  {
-    "lista": "Tipos de Licencias Comerciales",
-    "descripcion": "Esquema de conceptos que agrupa los tipos de licencias comerciales. Incluye tipos como APAL, DRAACT, DRAESP, CAMTI, CAMTC y DRVUT.",
-    "dominio": "Comercio",
-    "vocabularios": [
-      "edintcom"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitType.ttl"
-  },
-  {
-    "lista": "Situación de los Espacios Comerciales",
-    "descripcion": "Esquema de conceptos que agrupa las situaciones de los espacios comerciales. Incluye los estados: activo, cerrado, dado de baja, libre y en construcción.",
-    "dominio": "Comercio",
-    "vocabularios": [
-      "edintcom"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialSpaceStatus.ttl"
-  },
-  {
-    "lista": "Periodos de Funcionamiento de Terrazas",
-    "descripcion": "Esquema de conceptos que agrupa los periodos de funcionamiento de una terraza. Incluye los periodos anual y estacional.",
-    "dominio": "Comercio",
-    "vocabularios": [
-      "edintcom"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-TerracePeriod.ttl"
-  },
-  {
-    "lista": "Tipos de Campaña Comercial",
-    "descripcion": "Esquema de conceptos que agrupa los tipos de campaña comercial. Incluye bono, descuento y revitalización.",
-    "dominio": "Comercio",
-    "vocabularios": [
-      "edintcom"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialCampaignType.ttl"
-  },
-  {
-    "lista": "Tipos de Evento Comercial",
-    "descripcion": "Esquema de conceptos que agrupa los tipos de evento comercial. Incluye feria, mercado temático y evento local.",
-    "dominio": "Comercio",
-    "vocabularios": [
-      "edintcom"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialEventType.ttl"
-  },
-  {
-    "lista": "Clasificación de Inmuebles Catastrales",
-    "descripcion": "Esquema de conceptos que agrupa las clasificaciones de inmuebles según el Catastro Inmobiliario Español. Basado en los Artículos 7 y 8 de la Ley del Catastro (RDLeg 1/2004). Incluye las clasificaciones: urbano, rústico y BICES.",
-    "dominio": "Territorio",
-    "vocabularios": [
-      "edintcat"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro/blob/main/kos/catastro-clase.ttl"
-  },
-  {
-    "lista": "Usos de Inmuebles y Construcciones Catastrales",
-    "descripcion": "Esquema de conceptos que agrupa los usos de inmuebles y construcciones según el Catastro Inmobiliario Español. Basado en los usos oficiales de valoración del RD 1020/1993. Incluye usos residencial, industrial, oficinas, comercial, deportivo y de ocio, entre otros.",
-    "dominio": "Territorio",
-    "vocabularios": [
-      "edintcat"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro/blob/main/kos/catastro-use.ttl"
-  },
-  {
-    "lista": "Tipos de Transacción Inmobiliaria",
-    "descripcion": "Esquema de conceptos que define los tipos de transacción inmobiliaria en el contexto español. Incluye venta, alquiler y traspaso.",
-    "dominio": "Territorio",
-    "vocabularios": [
-      "edintinm"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-transaction-type.ttl"
-  },
-  {
-    "lista": "Usos de Inmuebles de la Oferta Inmobiliaria",
-    "descripcion": "Esquema de conceptos que define los usos de inmuebles según el Catastro Español aplicados a la oferta inmobiliaria. Incluye vivienda, local comercial, oficina, nave industrial y solar.",
-    "dominio": "Territorio",
-    "vocabularios": [
-      "edintinm"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-uso.ttl"
-  },
-  {
-    "lista": "Tipos de Contrato de Empleo",
-    "descripcion": "Esquema de conceptos que agrupa los tipos de contrato utilizados en observaciones de empleo. Incluye contrato indefinido y contrato temporal.",
-    "dominio": "Actividad Económica",
-    "vocabularios": [
-      "edintemp"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-cubo-empleo/blob/main/kos/skos-contractType.ttl"
-  },
-  {
-    "lista": "Tipo de Incidencia",
-    "descripcion": "Tesauro que recoge los tipos de incidencia; es decir los hechos ocurridos en la ciudad tales como obras o accidentes y que afectan a la circulación de vehículos.",
-    "dominio": "Transporte",
-    "vocabularios": [
-      "edinttraf"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico/blob/main/kos/skos-IncidenceType.ttl"
-  },
-  {
-    "lista": "Tipo de Equipo de Tráfico",
-    "descripcion": "Tesauro que recoge los tipos de equipo de tráfico; es decir tanto los dispositivos que permiten controlar el tráfico como los dispositivos que permiten la realización del conteo de vehículos (intensidad del tráfico) junto con la obtención del grado de ocupación de la vía.",
-    "dominio": "Transporte",
-    "vocabularios": [
-      "edinttraf"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico/blob/main/kos/skos-TrafficEquipmentType.ttl"
-  },
-  {
-    "lista": "Tipos de cable en caja de conexiones",
-    "descripcion": "Tipos de cable en la caja de conexiones de la farola según especificación técnica.",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-CableType.ttl"
-  },
-  {
-    "lista": "Estado de conservación de farolas",
-    "descripcion": "Estado de conservación de la farola según la metodología EIEL. 5 niveles: Excelente, Bueno, Regular, Malo, En ejecución. Basado en Castellón (B/R/M/E) y La Palma (B/R/M).",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-ConservationStatus.ttl"
-  },
-  {
-    "lista": "Régimen de iluminación",
-    "descripcion": "Clasificación del régimen de iluminación: nocturna o permanente.",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-IlluminationRegime.ttl"
-  },
-  {
-    "lista": "Clases de iluminación según EN 13201",
-    "descripcion": "Clases de alumbrado vial según la norma UNE-EN 13201. Clases M (calzadas), C (zonas de conflicto), S (peatonales).",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-IlluminationType.ttl"
-  },
-  {
-    "lista": "Tipos de lámpara de alumbrado público",
-    "descripcion": "Taxonomía de tipos de lámpara (tecnología de fuente de luz). 12 conceptos.",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LampType.ttl"
-  },
-  {
-    "lista": "Clases luminotécnicas según EN 13201",
-    "descripcion": "Clasificación luminotécnica según la norma UNE-EN 13201 para determinar los requisitos mínimos de alumbrado. A: autopistas, B: arteriales, C: colectoras, D: residenciales, E: peatonales.",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LightingClass.ttl"
-  },
-  {
-    "lista": "Zonas de alumbrado según REEAE",
-    "descripcion": "Clasificación de zonas ambientales de alumbrado según el Reglamento de Eficiencia Energética de Instalaciones de Alumbrado Exterior (REEAE, RD 1890/2008). E1: máxima protección, E2: alta, E3: media, E4: baja.",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LightingZone.ttl"
-  },
-  {
-    "lista": "Tipos de luminaria de alumbrado público",
-    "descripcion": "Taxonomía de tipos de luminaria según su forma y uso. 8 conceptos.",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LuminaireType.ttl"
-  },
-  {
-    "lista": "Tipos de alimentación eléctrica",
-    "descripcion": "Taxonomía de tipos de alimentación eléctrica de farolas. Ampliada de 3 a 5 conceptos según Tenerife.",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-PowerSupplyType.ttl"
-  },
-  {
-    "lista": "Tipos de soporte de alumbrado público",
-    "descripcion": "Taxonomía de tipos de soporte físico de farolas. Ampliada de 5 conceptos (v1.0-rc) a ~35 según Tenerife y Navarra.",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-SupportType.ttl"
-  },
-  {
-    "lista": "Período tarifario",
-    "descripcion": "Períodos horarios de facturación eléctrica según la regulación española.",
-    "dominio": "Urbanismo e infraestructuras",
-    "vocabularios": [
-      "edintalu"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-TariffPeriod.ttl"
-  },
-  {
-    "lista": "Tipos de procedimientos administrativos",
-    "descripcion": "Vocabulario controlado básico para clasificar procedimientos administrativos ofrecidos por una administración pública.",
-    "dominio": "Sector público",
-    "vocabularios": [
-      "edintserpub"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/blob/main/kos/skos-AdministrativeProcedures.ttl"
-  },
-  {
-    "lista": "Tipos de servicios públicos",
-    "descripcion": "Vocabulario controlado para clasificar servicios públicos municipales.",
-    "dominio": "Sector público",
-    "vocabularios": [
-      "edintserpub"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/blob/main/kos/skos-PublicServices.ttl"
-  },
-  {
-    "lista": "Nivel de administración",
-    "descripcion": "Esquema de conceptos que agrupa niveles de las organizaciones de la administración pública",
-    "dominio": "Sector público",
-    "vocabularios": [
-      "edintorg"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-AdministrationLevel.ttl"
-  },
-  {
-    "lista": "Estado de organización",
-    "descripcion": "Esquema de conceptos que agrupa estados de las organizaciones de la administración pública",
-    "dominio": "Sector público",
-    "vocabularios": [
-      "edintorg"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-OrganizationStatus.ttl"
-  },
-  {
-    "lista": "Tipo de organización",
-    "descripcion": "Esquema de conceptos que agrupa tipos de las organizaciones de la administración pública",
-    "dominio": "Sector público",
-    "vocabularios": [
-      "edintorg"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-OrganizationType.ttl"
-  },
-  {
-    "lista": "Modalidad de asistencia",
-    "descripcion": "Valores basados inicialmente en las modalidades de asistencia usadas para describir eventos culturales, deportivos y sociales en conjuntos de datos públicos de agenda.",
-    "dominio": "Cultura y ocio",
-    "vocabularios": [
-      "edintagenda"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-attendance-mode.ttl"
-  },
-  {
-    "lista": "Estado del evento",
-    "descripcion": "Valores basados inicialmente en los estados usados para describir eventos culturales, deportivos y sociales en conjuntos de datos públicos de agenda.",
-    "dominio": "Cultura y ocio",
-    "vocabularios": [
-      "edintagenda"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-event-status.ttl"
-  },
-  {
-    "lista": "Tipo de evento",
-    "descripcion": "Valores basados inicialmente en las categorías temáticas usadas en conjuntos de datos públicos de agenda de administraciones locales y autonómicas españolas.",
-    "dominio": "Cultura y ocio",
-    "vocabularios": [
-      "edintagenda"
-    ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-event-type.ttl"
-  },
-  {
-    "lista": "Estado del anclaje",
-    "descripcion": "Esquema de conceptos agrupando estados de anclaje",
-    "dominio": "Transporte",
-    "vocabularios": [
-      "edintvehcom"
-    ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/refs/heads/main/kos/skos-DockState.ttl"
-  },
-  {
-    "lista": "Tipo de sistema de propulsión",
-    "descripcion": "Esquema de conceptos agrupando tipos de sistema de propulsión",
-    "dominio": "Transporte",
-    "vocabularios": [
-      "edintvehcom"
-    ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-PropulsionSystemType.ttl"
-  },
-  {
-    "lista": "Estado de la estación",
-    "descripcion": "Esquema de conceptos agrupando estados de estación",
-    "dominio": "Transporte",
-    "vocabularios": [
-      "edintvehcom"
-    ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-StationState.ttl"
-  },
-  {
-    "lista": "Estado del vehículo",
-    "descripcion": "Esquema de conceptos agrupando estados de vehículo",
-    "dominio": "Transporte",
-    "vocabularios": [
-      "edintvehcom"
-    ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-VehicleState.ttl"
-  }
+        "lista": "Tipos de Acceso a Equipamientos",
+        "descripcion": "Esquema de conceptos que agrupa los tipos de acceso a los espacios comerciales. Incluye acceso por puerta de calle, interior y por piso.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintcom"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-AccessType.ttl"
+    },
+    {
+        "lista": "Estados de Tramitación de la Licencia de Comercio",
+        "descripcion": "Esquema de conceptos que agrupa los estados de tramitación de la licencia de comercio. Incluye los estados: concedida, denegada, en trámite y caducada.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintcom"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitStatus.ttl"
+    },
+    {
+        "lista": "Tipos de Licencias Comerciales",
+        "descripcion": "Esquema de conceptos que agrupa los tipos de licencias comerciales. Incluye tipos como APAL, DRAACT, DRAESP, CAMTI, CAMTC y DRVUT.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintcom"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitType.ttl"
+    },
+    {
+        "lista": "Situación de los Espacios Comerciales",
+        "descripcion": "Esquema de conceptos que agrupa las situaciones de los espacios comerciales. Incluye los estados: activo, cerrado, dado de baja, libre y en construcción.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintcom"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialSpaceStatus.ttl"
+    },
+    {
+        "lista": "Periodos de Funcionamiento de Terrazas",
+        "descripcion": "Esquema de conceptos que agrupa los periodos de funcionamiento de una terraza. Incluye los periodos anual y estacional.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintcom"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-TerracePeriod.ttl"
+    },
+    {
+        "lista": "Tipos de Campaña Comercial",
+        "descripcion": "Esquema de conceptos que agrupa los tipos de campaña comercial. Incluye bono, descuento y revitalización.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintcom"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialCampaignType.ttl"
+    },
+    {
+        "lista": "Tipos de Evento Comercial",
+        "descripcion": "Esquema de conceptos que agrupa los tipos de evento comercial. Incluye feria, mercado temático y evento local.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintcom"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialEventType.ttl"
+    },
+    {
+        "lista": "Clasificación de Inmuebles Catastrales",
+        "descripcion": "Esquema de conceptos que agrupa las clasificaciones de inmuebles según el Catastro Inmobiliario Español. Basado en los Artículos 7 y 8 de la Ley del Catastro (RDLeg 1/2004). Incluye las clasificaciones: urbano, rústico y BICES.",
+        "dominio": "Geoespacial y localización",
+        "vocabularios": [
+            "edintcat"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro/blob/main/kos/catastro-clase.ttl"
+    },
+    {
+        "lista": "Usos de Inmuebles y Construcciones Catastrales",
+        "descripcion": "Esquema de conceptos que agrupa los usos de inmuebles y construcciones según el Catastro Inmobiliario Español. Basado en los usos oficiales de valoración del RD 1020/1993. Incluye usos residencial, industrial, oficinas, comercial, deportivo y de ocio, entre otros.",
+        "dominio": "Geoespacial y localización",
+        "vocabularios": [
+            "edintcat"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro/blob/main/kos/catastro-use.ttl"
+    },
+    {
+        "lista": "Tipos de Transacción Inmobiliaria",
+        "descripcion": "Esquema de conceptos que define los tipos de transacción inmobiliaria en el contexto español. Incluye venta, alquiler y traspaso.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintinm"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-transaction-type.ttl"
+    },
+    {
+        "lista": "Usos de Inmuebles de la Oferta Inmobiliaria",
+        "descripcion": "Esquema de conceptos que define los usos de inmuebles según el Catastro Español aplicados a la oferta inmobiliaria. Incluye vivienda, local comercial, oficina, nave industrial y solar.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintinm"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-uso.ttl"
+    },
+    {
+        "lista": "Tipos de Contrato de Empleo",
+        "descripcion": "Esquema de conceptos que agrupa los tipos de contrato utilizados en observaciones de empleo. Incluye contrato indefinido y contrato temporal.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintemp"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-cubo-empleo/blob/main/kos/skos-contractType.ttl"
+    },
+    {
+        "lista": "Tipo de Incidencia",
+        "descripcion": "Tesauro que recoge los tipos de incidencia; es decir los hechos ocurridos en la ciudad tales como obras o accidentes y que afectan a la circulación de vehículos.",
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edinttraf"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico/blob/main/kos/skos-IncidenceType.ttl"
+    },
+    {
+        "lista": "Tipo de Equipo de Tráfico",
+        "descripcion": "Tesauro que recoge los tipos de equipo de tráfico; es decir tanto los dispositivos que permiten controlar el tráfico como los dispositivos que permiten la realización del conteo de vehículos (intensidad del tráfico) junto con la obtención del grado de ocupación de la vía.",
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edinttraf"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico/blob/main/kos/skos-TrafficEquipmentType.ttl"
+    },
+    {
+        "lista": "Tipos de cable en caja de conexiones",
+        "descripcion": "Tipos de cable en la caja de conexiones de la farola según especificación técnica.",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-CableType.ttl"
+    },
+    {
+        "lista": "Estado de conservación de farolas",
+        "descripcion": "Estado de conservación de la farola según la metodología EIEL. 5 niveles: Excelente, Bueno, Regular, Malo, En ejecución. Basado en Castellón (B/R/M/E) y La Palma (B/R/M).",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-ConservationStatus.ttl"
+    },
+    {
+        "lista": "Régimen de iluminación",
+        "descripcion": "Clasificación del régimen de iluminación: nocturna o permanente.",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-IlluminationRegime.ttl"
+    },
+    {
+        "lista": "Clases de iluminación según EN 13201",
+        "descripcion": "Clases de alumbrado vial según la norma UNE-EN 13201. Clases M (calzadas), C (zonas de conflicto), S (peatonales).",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-IlluminationType.ttl"
+    },
+    {
+        "lista": "Tipos de lámpara de alumbrado público",
+        "descripcion": "Taxonomía de tipos de lámpara (tecnología de fuente de luz). 12 conceptos.",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LampType.ttl"
+    },
+    {
+        "lista": "Clases luminotécnicas según EN 13201",
+        "descripcion": "Clasificación luminotécnica según la norma UNE-EN 13201 para determinar los requisitos mínimos de alumbrado. A: autopistas, B: arteriales, C: colectoras, D: residenciales, E: peatonales.",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LightingClass.ttl"
+    },
+    {
+        "lista": "Zonas de alumbrado según REEAE",
+        "descripcion": "Clasificación de zonas ambientales de alumbrado según el Reglamento de Eficiencia Energética de Instalaciones de Alumbrado Exterior (REEAE, RD 1890/2008). E1: máxima protección, E2: alta, E3: media, E4: baja.",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LightingZone.ttl"
+    },
+    {
+        "lista": "Tipos de luminaria de alumbrado público",
+        "descripcion": "Taxonomía de tipos de luminaria según su forma y uso. 8 conceptos.",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LuminaireType.ttl"
+    },
+    {
+        "lista": "Tipos de alimentación eléctrica",
+        "descripcion": "Taxonomía de tipos de alimentación eléctrica de farolas. Ampliada de 3 a 5 conceptos según Tenerife.",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-PowerSupplyType.ttl"
+    },
+    {
+        "lista": "Tipos de soporte de alumbrado público",
+        "descripcion": "Taxonomía de tipos de soporte físico de farolas. Ampliada de 5 conceptos (v1.0-rc) a ~35 según Tenerife y Navarra.",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-SupportType.ttl"
+    },
+    {
+        "lista": "Período tarifario",
+        "descripcion": "Períodos horarios de facturación eléctrica según la regulación española.",
+        "dominio": "Infraestructura urbana",
+        "vocabularios": [
+            "edintalu"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-TariffPeriod.ttl"
+    },
+    {
+        "lista": "Tipos de procedimientos administrativos",
+        "descripcion": "Vocabulario controlado básico para clasificar procedimientos administrativos ofrecidos por una administración pública.",
+        "dominio": "Gobernanza y administración pública",
+        "vocabularios": [
+            "edintserpub"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/blob/main/kos/skos-AdministrativeProcedures.ttl"
+    },
+    {
+        "lista": "Tipos de servicios públicos",
+        "descripcion": "Vocabulario controlado para clasificar servicios públicos municipales.",
+        "dominio": "Gobernanza y administración pública",
+        "vocabularios": [
+            "edintserpub"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/blob/main/kos/skos-PublicServices.ttl"
+    },
+    {
+        "lista": "Nivel de administración",
+        "descripcion": "Esquema de conceptos que agrupa niveles de las organizaciones de la administración pública",
+        "dominio": "Gobernanza y administración pública",
+        "vocabularios": [
+            "edintorg"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-AdministrationLevel.ttl"
+    },
+    {
+        "lista": "Estado de organización",
+        "descripcion": "Esquema de conceptos que agrupa estados de las organizaciones de la administración pública",
+        "dominio": "Gobernanza y administración pública",
+        "vocabularios": [
+            "edintorg"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-OrganizationStatus.ttl"
+    },
+    {
+        "lista": "Tipo de organización",
+        "descripcion": "Esquema de conceptos que agrupa tipos de las organizaciones de la administración pública",
+        "dominio": "Gobernanza y administración pública",
+        "vocabularios": [
+            "edintorg"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-OrganizationType.ttl"
+    },
+    {
+        "lista": "Modalidad de asistencia",
+        "descripcion": "Valores basados inicialmente en las modalidades de asistencia usadas para describir eventos culturales, deportivos y sociales en conjuntos de datos públicos de agenda.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintagenda"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-attendance-mode.ttl"
+    },
+    {
+        "lista": "Estado del evento",
+        "descripcion": "Valores basados inicialmente en los estados usados para describir eventos culturales, deportivos y sociales en conjuntos de datos públicos de agenda.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintagenda"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-event-status.ttl"
+    },
+    {
+        "lista": "Tipo de evento",
+        "descripcion": "Valores basados inicialmente en las categorías temáticas usadas en conjuntos de datos públicos de agenda de administraciones locales y autonómicas españolas.",
+        "dominio": "Economía y sociedad",
+        "vocabularios": [
+            "edintagenda"
+        ],
+        "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-event-type.ttl"
+    },
+    {
+        "lista": "Estado del anclaje",
+        "descripcion": "Esquema de conceptos agrupando estados de anclaje",
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edintvehcom"
+        ],
+        "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/refs/heads/main/kos/skos-DockState.ttl"
+    },
+    {
+        "lista": "Tipo de sistema de propulsión",
+        "descripcion": "Esquema de conceptos agrupando tipos de sistema de propulsión",
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edintvehcom"
+        ],
+        "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-PropulsionSystemType.ttl"
+    },
+    {
+        "lista": "Estado de la estación",
+        "descripcion": "Esquema de conceptos agrupando estados de estación",
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edintvehcom"
+        ],
+        "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-StationState.ttl"
+    },
+    {
+        "lista": "Estado del vehículo",
+        "descripcion": "Esquema de conceptos agrupando estados de vehículo",
+        "dominio": "Movilidad y transporte",
+        "vocabularios": [
+            "edintvehcom"
+        ],
+        "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-VehicleState.ttl"
+    }
 ]
