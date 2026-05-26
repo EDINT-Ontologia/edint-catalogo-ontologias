@@ -718,5 +718,35 @@
         "icon": "fas fa-file-alt"
       }
     ]
-  }
+  },
+  {
+  "vocabulario": "Ontología de Gestión de Residuos",
+  "descripcion": "Ontología para la representación de la gestión de residuos. Describe elementos asociados a la gestión de residuos y permite representar información relativa a su tipología, su depósito en contenedores y puntos de recogida, su tratamiento en instalaciones y su localización, junto con otros aspectos relevantes. Su alcance se limita a la representación de datos de carácter administrativo y estructural.",
+  "prefijo": "waste",
+  "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-gestion-residuos/refs/heads/main/documentation/index-es.html",
+  "formatos": [
+    {
+      "nombre": "HTML",
+      "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-gestion-residuos/refs/heads/main/documentation/index-es.html"
+    }
+  ],
+  "dominio": "Medio ambiente y sostenibilidad",
+  "recursos": [
+    {
+      "nombre": "Repositorio",
+      "url": "https://github.com/EDINT-Ontologia/edint-ontologia-gestion-residuos",
+      "icon": "fab fa-github"
+    },
+    {
+      "nombre": "Issues",
+      "url": "https://github.com/EDINT-Ontologia/edint-ontologia-gestion-residuos/issues",
+      "icon": "fas fa-bug"
+    },
+    {
+      "nombre": "Requisitos",
+      "url": "https://github.com/EDINT-Ontologia/edint-ontologia-gestion-residuos/tree/main/requirements",
+      "icon": "fas fa-file-alt"
+    }
+  ]
+}
 ]
