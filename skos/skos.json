@@ -135,7 +135,7 @@
     {
         "lista": "Tipos de Emisor de Ruido Predominante",
         "descripcion": "Esquema de conceptos que agrupa tipos de emisores de ruido o vibración basado en el artículo 12.2 de la Ley 37/2003 del Ruido. Incluye vehículos, ferrocarriles, aeronaves, industrias, infraestructuras y actividades comerciales/deportivas.",
-        "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+        "dominio": "Sensores e IoT",
         "vocabularios": [
             "edintacus"
         ],
@@ -144,7 +144,7 @@
     {
         "lista": "Tipos de Índice de Ruido",
         "descripcion": "Esquema de conceptos que agrupa tipos de índice de ruido o vibración. Incluye niveles equivalentes (LAeq, LAeq24), niveles estadísticos (LAS01, LAS10, LAS50, LAS90, LAS99) e índices de vibración (LAw).",
-        "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+        "dominio": "Sensores e IoT",
         "vocabularios": [
             "edintacus"
         ],
@@ -153,7 +153,7 @@
     {
         "lista": "Intervalos de Referencia",
         "descripcion": "Esquema de conceptos que agrupa tipos de periodos de medición para observaciones de calidad acústica. Periodos: T (total), D (día), E (tarde), N (noche).",
-        "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+        "dominio": "Sensores e IoT",
         "vocabularios": [
             "edintacus"
         ],
@@ -162,7 +162,7 @@
     {
         "lista": "Variables de Sensor",
         "descripcion": "Esquema de conceptos agrupando magnitudes medidas por sensores en entornos urbanos. Vocabulario jerárquico de propiedades físicas, químicas y acústicas (meteorológicas, calidad del aire, acústicas, agua, suelo, tráfico, energía, residuos) con unidades QUDT asociadas.",
-        "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+        "dominio": "Sensores e IoT",
         "vocabularios": [
             "edintmed"
         ],
@@ -171,7 +171,7 @@
     {
         "lista": "Características de Interés",
         "descripcion": "Esquema de conceptos agrupando características de interés observables por sensores según la ontología SOSA. Vocabulario de features of interest con enlaces directos a propiedades observables en el esquema SensorVariables (aire, suelo, calzada, viento, precipitación, radiación, entorno acústico, agua potable).",
-        "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+        "dominio": "Sensores e IoT",
         "vocabularios": [
             "edintmed"
         ],
