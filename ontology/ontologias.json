@@ -190,7 +190,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-contaminacion-acustica/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+    "dominio": "Sensores e IoT",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -250,7 +250,7 @@
         "url": "https://github.com/EDINT-Ontologia/edint-ontologia-climatologia"
       }
     ],
-    "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+    "dominio": "Sensores e IoT",
     "recursos": [
       {
         "nombre": "Repositorio",
@@ -280,7 +280,7 @@
         "url": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-medio-ambiente/refs/heads/main/documentation/index-es.html"
       }
     ],
-    "dominio": "Sensores e Internet de las Cosas (IoT por sus siglas en inglés)",
+    "dominio": "Sensores e IoT",
     "recursos": [
       {
         "nombre": "Repositorio",
