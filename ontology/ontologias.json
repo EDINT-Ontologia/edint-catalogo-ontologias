@@ -450,97 +450,7 @@
     ]
   },
   {
-    "vocabulario": "Cubo de Gasto Comercial",
-    "descripcion": "Cubo de datos RDF para representar información agregada sobre gasto comercial según distintas dimensiones: región administrativa, periodo temporal, sector, actividad económica (CNAE) y nacionalidad. Desarrollado siguiendo el vocabulario RDF Data Cube para permitir consultas interoperables mediante SPARQL.",
-    "prefijo": "edintgast",
-    "documentacion": "https://raw.githack.com/oeg-upm/edint-cubo-gasto-comercial/refs/heads/main/documentation/index-es.html",
-    "formatos": [
-      {
-        "nombre": "HTML",
-        "url": "https://raw.githack.com/oeg-upm/edint-cubo-gasto-comercial/refs/heads/main/documentation/index-es.html"
-      }
-    ],
-    "dominio": "Economía y sociedad",
-    "recursos": [
-      {
-        "nombre": "Repositorio",
-        "url": "https://github.com/oeg-upm/edint-cubo-gasto-comercial",
-        "icon": "fab fa-github"
-      },
-      {
-        "nombre": "Issues",
-        "url": "https://github.com/oeg-upm/edint-cubo-gasto-comercial/issues",
-        "icon": "fas fa-bug"
-      },
-      {
-        "nombre": "Requisitos",
-        "url": "https://github.com/oeg-upm/edint-cubo-gasto-comercial/tree/main/requirements",
-        "icon": "fas fa-file-alt"
-      }
-    ]
-  },
-  {
-    "vocabulario": "Cubo de Indicadores de Empleo",
-    "descripcion": "Cubo de datos RDF para representar indicadores agregados de empleo según dimensiones como región administrativa, periodo temporal, sector, actividad económica (CNAE), sexo, edad y tipo de contrato. Las medidas incluyen número de activos, ocupados, parados, contratos registrados, demandantes de empleo, paro registrado y personas afiliadas a la Seguridad Social.",
-    "prefijo": "edintemp",
-    "documentacion": "https://raw.githack.com/oeg-upm/edint-cubo-empleo/refs/heads/main/documentation/index-es.html",
-    "formatos": [
-      {
-        "nombre": "HTML",
-        "url": "https://raw.githack.com/oeg-upm/edint-cubo-empleo/refs/heads/main/documentation/index-es.html"
-      }
-    ],
-    "dominio": "Economía y sociedad",
-    "recursos": [
-      {
-        "nombre": "Repositorio",
-        "url": "https://github.com/oeg-upm/edint-cubo-empleo",
-        "icon": "fab fa-github"
-      },
-      {
-        "nombre": "Issues",
-        "url": "https://github.com/oeg-upm/edint-cubo-empleo/issues",
-        "icon": "fas fa-bug"
-      },
-      {
-        "nombre": "Requisitos",
-        "url": "https://github.com/oeg-upm/edint-cubo-empleo/tree/main/requirements",
-        "icon": "fas fa-file-alt"
-      }
-    ]
-  },
-  {
-    "vocabulario": "Cubo de Turismo",
-    "descripcion": "Cubo de datos RDF para representar conjuntos de datos turísticos incluyendo ocupación turística, flujo turístico e indicadores turísticos. Permite describir observaciones según territorio, periodo temporal, país de origen, tipo de flujo y número de registro del establecimiento. Las medidas abarcan estancia media, grado de ocupación, número de turistas, pernoctaciones y plazas disponibles, entre otras.",
-    "prefijo": "edinttur",
-    "documentacion": "https://raw.githack.com/oeg-upm/edint-cubo-turismo/refs/heads/main/documentation/index-es.html",
-    "formatos": [
-      {
-        "nombre": "HTML",
-        "url": "https://raw.githack.com/oeg-upm/edint-cubo-turismo/refs/heads/main/documentation/index-es.html"
-      }
-    ],
-    "dominio": "Economía y sociedad",
-    "recursos": [
-      {
-        "nombre": "Repositorio",
-        "url": "https://github.com/oeg-upm/edint-cubo-turismo",
-        "icon": "fab fa-github"
-      },
-      {
-        "nombre": "Issues",
-        "url": "https://github.com/oeg-upm/edint-cubo-turismo/issues",
-        "icon": "fas fa-bug"
-      },
-      {
-        "nombre": "Requisitos",
-        "url": "https://github.com/oeg-upm/edint-cubo-turismo/tree/main/requirements",
-        "icon": "fas fa-file-alt"
-      }
-    ]
-  },
-  {
-    "vocabulario": "Tráfico de vehículos en las ciudades",
+    "vocabulario": "Ontología de Tráfico de vehículos en las ciudades",
     "descripcion": "Ontología para representar datos de medición del tráfico de vehículos de una ciudad, así como incidencias planificadas y no planificadas. Incluye observaciones de control de velocidad y acceso de vehículos específicos, y proporciona un vocabulario común para representar mediciones como intensidad, densidad y ocupación, además de incidencias de tráfico y su geolocalización.",
     "prefijo": "edinttraf",
     "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-trafico/refs/heads/main/documentation/index-es.html",
@@ -570,7 +480,7 @@
     ]
   },
   {
-    "vocabulario": "Alumbrado Público",
+    "vocabulario": "Ontología de Alumbrado Público",
     "descripcion": "Ontología para la representación de datos de alumbrado público en el contexto de la Federación Española de Municipios y Provincias. Permite la publicación de inventarios de farolas como datos abiertos vinculados, la auditoría energética del consumo eléctrico y la evaluación del estado de conservación de las instalaciones. Su alcance cubre composición modular de farolas, infraestructura eléctrica, consumo energético, catálogo de modelos, parámetros fotométricos y contaminación lumínica.",
     "prefijo": "edintalu",
     "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/refs/heads/main/documentation/index-es.html",
@@ -600,7 +510,7 @@
     ]
   },
   {
-    "vocabulario": "Servicios Públicos",
+    "vocabulario": "Ontología de Servicios Públicos",
     "descripcion": "Ontología para representar el dominio de los servicios públicos municipales ofrecidos a la ciudadanía, incluyendo procedimientos administrativos asociados, organizaciones públicas responsables, canales de prestación, puntos de contacto, reglas aplicables y clasificación de servicios mediante vocabularios controlados. Reutiliza como referencia CPSV-AP y adapta el modelo al contexto de los servicios públicos municipales, incorporando elementos como estado del procedimiento, periodo de resolución y esquemas de clasificación específicos.",
     "prefijo": "edintserpub",
     "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/refs/heads/main/documentation/index-es.html",
@@ -630,7 +540,7 @@
     ]
   },
   {
-    "vocabulario": "Organizaciones Públicas",
+    "vocabulario": "Ontología de Organizaciones Públicas",
     "descripcion": "Ontología para representar el dominio de los organismos públicos y sus organigramas en España. Proporciona un vocabulario común para la representación de organizaciones públicas y aspectos relacionados con los organigramas dentro de dichas organizaciones. Es una actualización de una versión previa que extendía la W3C Organization Ontology y adapta esa ontología para cubrir los requisitos de EDINT.",
     "prefijo": "edintorg",
     "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-organizaciones/refs/heads/main/documentation/index-es.html",
@@ -660,7 +570,7 @@
     ]
   },
   {
-    "vocabulario": "Agenda",
+    "vocabulario": "Ontología de Agenda",
     "descripcion": "Ontología para representar eventos culturales, deportivos y sociales que se llevan a cabo en una ciudad. Proporciona un vocabulario común para la representación de datos principales de eventos de un municipio. Su alcance incluye tipos de eventos representados mediante una taxonomía y el lugar donde se llevan a cabo, como elementos de la infraestructura municipal.",
     "prefijo": "edintagenda",
     "documentacion": "https://raw.githack.com/EDINT-Ontologia/edint-ontologia-agenda/refs/heads/main/documentation/index-es.html",
@@ -690,7 +600,7 @@
     ]
   },
   {
-    "vocabulario": "Vehículos Compartidos",
+    "vocabulario": "Ontología de Vehículos Compartidos",
     "descripcion": "Ontología para la representación de datos sobre sistemas de vehículos compartidos en las ciudades. Representa datos de sistemas de vehículos compartidos, incluyendo sistemas basados en estaciones con sensores en sus anclajes y sistemas libres, en los que el vehículo puede encontrarse en lugares de aparcamiento permitido y ubicarse mediante datos geoespaciales. También representa datos de los trayectos realizados por estos vehículos, incluyendo punto de origen y destino.",
     "prefijo": "edintvehcom",
     "documentacion": "https://raw.githack.com/oeg-upm/edint-ontologia-vehiculos-compartidos/refs/heads/main/documentation/index-es.html",
