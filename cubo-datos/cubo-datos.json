@@ -1,0 +1,92 @@
+[
+  {
+    "vocabulario": "Cubo de Gasto Comercial",
+    "descripcion": "Cubo de datos RDF para representar información agregada sobre gasto comercial según distintas dimensiones: región administrativa, periodo temporal, sector, actividad económica (CNAE) y nacionalidad. Desarrollado siguiendo el vocabulario RDF Data Cube para permitir consultas interoperables mediante SPARQL.",
+    "prefijo": "edintgast",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-cubo-gasto-comercial/refs/heads/main/documentation/index-es.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-cubo-gasto-comercial/refs/heads/main/documentation/index-es.html"
+      }
+    ],
+    "dominio": "Economía y sociedad",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-cubo-gasto-comercial",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-cubo-gasto-comercial/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-cubo-gasto-comercial/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Cubo de Indicadores de Empleo",
+    "descripcion": "Cubo de datos RDF para representar indicadores agregados de empleo según dimensiones como región administrativa, periodo temporal, sector, actividad económica (CNAE), sexo, edad y tipo de contrato. Las medidas incluyen número de activos, ocupados, parados, contratos registrados, demandantes de empleo, paro registrado y personas afiliadas a la Seguridad Social.",
+    "prefijo": "edintemp",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-cubo-empleo/refs/heads/main/documentation/index-es.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-cubo-empleo/refs/heads/main/documentation/index-es.html"
+      }
+    ],
+    "dominio": "Economía y sociedad",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-cubo-empleo",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-cubo-empleo/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-cubo-empleo/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  },
+  {
+    "vocabulario": "Cubo de Turismo",
+    "descripcion": "Cubo de datos RDF para representar conjuntos de datos turísticos incluyendo ocupación turística, flujo turístico e indicadores turísticos. Permite describir observaciones según territorio, periodo temporal, país de origen, tipo de flujo y número de registro del establecimiento. Las medidas abarcan estancia media, grado de ocupación, número de turistas, pernoctaciones y plazas disponibles, entre otras.",
+    "prefijo": "edinttur",
+    "documentacion": "https://raw.githack.com/oeg-upm/edint-cubo-turismo/refs/heads/main/documentation/index-es.html",
+    "formatos": [
+      {
+        "nombre": "HTML",
+        "url": "https://raw.githack.com/oeg-upm/edint-cubo-turismo/refs/heads/main/documentation/index-es.html"
+      }
+    ],
+    "dominio": "Economía y sociedad",
+    "recursos": [
+      {
+        "nombre": "Repositorio",
+        "url": "https://github.com/oeg-upm/edint-cubo-turismo",
+        "icon": "fab fa-github"
+      },
+      {
+        "nombre": "Issues",
+        "url": "https://github.com/oeg-upm/edint-cubo-turismo/issues",
+        "icon": "fas fa-bug"
+      },
+      {
+        "nombre": "Requisitos",
+        "url": "https://github.com/oeg-upm/edint-cubo-turismo/tree/main/requirements",
+        "icon": "fas fa-file-alt"
+      }
+    ]
+  }
+]
