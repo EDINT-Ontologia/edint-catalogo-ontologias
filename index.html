@@ -801,13 +801,13 @@
                     <i class="fas fa-info-circle" style="margin-right:6px;font-size:11px;"></i>Descripción
                 </button>
                 <button class="nav-btn" data-section="catalogo">
-                    <i class="fas fa-table" style="margin-right:6px;font-size:11px;"></i>Catálogo
+                    <i class="fas fa-table" style="margin-right:6px;font-size:11px;"></i>Ontologías
                 </button>
                 <button class="nav-btn" data-section="skos">
-                    <i class="fas fa-list" style="margin-right:6px;font-size:11px;"></i>Listas SKOS
+                    <i class="fas fa-list" style="margin-right:6px;font-size:11px;"></i>Tesauros SKOS
                 </button>
-                <button class="nav-btn" data-section="reutilizacion">
-                    <i class="fas fa-recycle" style="margin-right:6px;font-size:11px;"></i>Reutilización
+                <button class="nav-btn" data-section="cubo">
+                    <i class="fa fa-cube" style="margin-right:6px;font-size:11px;"></i>Cubo de datos
                 </button>
             </nav>
         </div>
@@ -821,7 +821,7 @@
                 <span></span>Vocabulario Semántico Urbano
             </div>
             <h1>Red de modelos<br>para la <em>ciudad inteligente</em></h1>
-            <p class="hero-desc">Ontologías y vocabularios estandarizados diseñados para la interoperabilidad semántica y la publicación de datos abiertos en infraestructuras urbanas.</p>
+            <p class="hero-desc">Ontologías, vocabularios y cubos de datos estandarizados para la interoperabilidad semántica y la publicación de datos abiertos en infraestructuras urbanas.</p>
             <div class="hero-stats" id="hero-stats">
                 <div class="stat">
                     <span class="stat-num" id="stat-ont">—</span>
@@ -831,6 +831,11 @@
                 <div class="stat">
                     <span class="stat-num" id="stat-skos">—</span>
                     <span class="stat-label">Listas SKOS</span>
+                </div>
+                <div class="hero-divider"></div>
+                <div class="stat">
+                    <span class="stat-num" id="stat-cubo">—</span>
+                    <span class="stat-label">Cubos de datos</span>
                 </div>
                 <div class="hero-divider"></div>
                 <div class="stat">
@@ -973,14 +978,37 @@
             </div>
         </div>
 
-        <!-- REUTILIZACIÓN -->
-        <div id="reutilizacion" class="section">
-            <div class="coming-soon-card">
-                <div class="coming-soon-icon">
-                    <i class="fas fa-recycle"></i>
+        <!-- CUBO DE DATOS -->
+        <div id="cubo" class="section">
+            <div class="section-header">
+                <div>
+                    <h2>Cubo de datos</h2>
+                    <p>Modelos multidimensionales disponibles para la publicación y análisis de datos urbanos</p>
                 </div>
-                <h2>Vocabularios Reutilizados</h2>
-                <p>Esta sección recogerá los vocabularios y ontologías externas que han servido de base para el desarrollo de los modelos EDINT. Próximamente disponible.</p>
+            </div>
+            <div class="table-wrap">
+                <div class="table-scroll">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width:20%" class="sortable" data-table="cubo" data-col="0">Cubo de datos</th>
+                                <th style="width:30%">Descripción</th>
+                                <th style="width:9%" class="sortable" data-table="cubo" data-col="2">Prefijo</th>
+                                <th style="width:13%" class="sortable" data-table="cubo" data-col="3">Dominio</th>
+                                <th style="width:10%">Formatos</th>
+                                <th style="width:18%">Recursos</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cubo-tbody">
+                            <tr class="loading-row">
+                                <td colspan="6">
+                                    <div class="spinner"></div>
+                                    Cargando cubos de datos…
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
@@ -1014,83 +1042,113 @@
         });
 
         // ── DATA LOADING ─────────────────────────────
-        async function loadData() {
-            try {
-                // ── Ontologías ──
-                const resOnt = await fetch('./ontology/ontologias.json');
-                if (!resOnt.ok) throw new Error('ontologias.json not found');
-                const ontData = await resOnt.json();
+        function renderCatalogTable(data, tbodyId, emptyMessage) {
+            const tbody = document.getElementById(tbodyId);
+            tbody.innerHTML = '';
 
-                const domains = new Set(ontData.map(o => o.dominio));
-                document.getElementById('stat-ont').textContent  = ontData.length;
-                document.getElementById('stat-dom').textContent  = domains.size;
-
-                const catTbody = document.getElementById('catalogo-tbody');
-                catTbody.innerHTML = '';
-
-                if (!ontData.length) {
-                    catTbody.innerHTML = emptyRow(6, 'No hay ontologías registradas aún.');
-                } else {
-                    ontData.forEach(item => {
-                        const resources = (item.recursos || []).map(r =>
-                            `<a href="${r.url}" class="resource-link" target="_blank"><i class="${r.icon}"></i>${r.nombre}</a>`
-                        ).join('');
-                        const docUrl = item.documentacion || '#';
-                        const formatosHtml = `<a href="${docUrl}" class="resource-link" target="_blank" style="font-weight:600;"><i class="fas fa-file-code"></i>HTML</a>`;
-                        const tr = document.createElement('tr');
-                        tr.innerHTML = `
-                            <td><span class="vocab-name">${item.vocabulario}</span></td>
-                            <td><span class="vocab-desc">${item.descripcion}</span></td>
-                            <td><span class="prefix-pill">${item.prefijo}</span></td>
-                            <td><span class="domain-tag">${item.dominio}</span></td>
-                            <td><div class="resource-links">${formatosHtml}</div></td>
-                            <td><div class="resource-links">${resources}</div></td>
-                        `;
-                        catTbody.appendChild(tr);
-                    });
-                }
-
-                // ── SKOS ──
-                const resSkos = await fetch('./skos/skos.json');
-                if (!resSkos.ok) throw new Error('skos.json not found');
-                const skosData = await resSkos.json();
-
-                document.getElementById('stat-skos').textContent = skosData.length;
-
-                const skosTbody = document.getElementById('skos-tbody');
-                skosTbody.innerHTML = '';
-
-                if (!skosData.length) {
-                    skosTbody.innerHTML = emptyRow(5, 'No hay listas SKOS registradas aún.');
-                } else {
-                    skosData.forEach(item => {
-                        const vocabs = (item.vocabularios || []).join(', ');
-                        const tr = document.createElement('tr');
-                        tr.innerHTML = `
-                            <td><span class="vocab-name">${item.lista}</span></td>
-                            <td><span class="vocab-desc">${item.descripcion}</span></td>
-                            <td><span class="domain-tag">${item.dominio}</span></td>
-                            <td style="font-size:13px;color:var(--muted)">${vocabs}</td>
-                            <td>
-                                <div class="resource-links">
-                                    <a href="${item.enlace}" class="resource-link" target="_blank">
-                                        <i class="fab fa-github"></i>Repositorio
-                                    </a>
-                                </div>
-                            </td>
-                        `;
-                        skosTbody.appendChild(tr);
-                    });
-                }
-
-            } catch (err) {
-                console.error('Error loading data:', err);
-                document.getElementById('stat-ont').textContent  = '—';
-                document.getElementById('stat-skos').textContent = '—';
-                document.getElementById('stat-dom').textContent  = '—';
-                document.getElementById('catalogo-tbody').innerHTML = emptyRow(6, 'No se pudieron cargar los datos.');
-                document.getElementById('skos-tbody').innerHTML    = emptyRow(5, 'No se pudieron cargar los datos.');
+            if (!Array.isArray(data) || !data.length) {
+                tbody.innerHTML = emptyRow(6, emptyMessage);
+                return;
             }
+
+            data.forEach(item => {
+                const resources = (item.recursos || []).map(r =>
+                    `<a href="${r.url}" class="resource-link" target="_blank" rel="noopener noreferrer"><i class="${r.icon || 'fas fa-link'}"></i>${r.nombre}</a>`
+                ).join('');
+
+                const docUrl = item.documentacion || '#';
+                const formatosHtml = `<a href="${docUrl}" class="resource-link" target="_blank" rel="noopener noreferrer" style="font-weight:600;"><i class="fas fa-file-code"></i>HTML</a>`;
+                const nombre = item.vocabulario || item.cubo || item.nombre || '';
+
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td><span class="vocab-name">${nombre}</span></td>
+                    <td><span class="vocab-desc">${item.descripcion || ''}</span></td>
+                    <td><span class="prefix-pill">${item.prefijo || ''}</span></td>
+                    <td><span class="domain-tag">${item.dominio || ''}</span></td>
+                    <td><div class="resource-links">${formatosHtml}</div></td>
+                    <td><div class="resource-links">${resources}</div></td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        async function loadOntologias() {
+            try {
+                const response = await fetch('./ontology/ontologias.json');
+                if (!response.ok) throw new Error('ontologias.json not found');
+                const data = await response.json();
+
+                const domains = new Set(data.map(item => item.dominio).filter(Boolean));
+                document.getElementById('stat-ont').textContent = data.length;
+                document.getElementById('stat-dom').textContent = domains.size;
+                renderCatalogTable(data, 'catalogo-tbody', 'No hay ontologías registradas aún.');
+            } catch (err) {
+                console.error('Error loading ontologies:', err);
+                document.getElementById('stat-ont').textContent = '—';
+                document.getElementById('stat-dom').textContent = '—';
+                document.getElementById('catalogo-tbody').innerHTML = emptyRow(6, 'No se pudieron cargar las ontologías.');
+            }
+        }
+
+        async function loadSkos() {
+            try {
+                const response = await fetch('./skos/skos.json');
+                if (!response.ok) throw new Error('skos.json not found');
+                const data = await response.json();
+
+                document.getElementById('stat-skos').textContent = data.length;
+                const tbody = document.getElementById('skos-tbody');
+                tbody.innerHTML = '';
+
+                if (!Array.isArray(data) || !data.length) {
+                    tbody.innerHTML = emptyRow(5, 'No hay listas SKOS registradas aún.');
+                    return;
+                }
+
+                data.forEach(item => {
+                    const vocabs = (item.vocabularios || []).join(', ');
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td><span class="vocab-name">${item.lista}</span></td>
+                        <td><span class="vocab-desc">${item.descripcion}</span></td>
+                        <td><span class="domain-tag">${item.dominio}</span></td>
+                        <td style="font-size:13px;color:var(--muted)">${vocabs}</td>
+                        <td>
+                            <div class="resource-links">
+                                <a href="${item.enlace}" class="resource-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>Repositorio
+                                </a>
+                            </div>
+                        </td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            } catch (err) {
+                console.error('Error loading SKOS:', err);
+                document.getElementById('stat-skos').textContent = '—';
+                document.getElementById('skos-tbody').innerHTML = emptyRow(5, 'No se pudieron cargar las listas SKOS.');
+            }
+        }
+
+        async function loadCubosDatos() {
+            try {
+                const response = await fetch('./cubo-datos/cubo-datos.json');
+                if (!response.ok) throw new Error('cubo-datos.json not found');
+                const data = await response.json();
+                document.getElementById('stat-cubo').textContent = Array.isArray(data) ? data.length : '—';
+                renderCatalogTable(data, 'cubo-tbody', 'No hay cubos de datos registrados aún.');
+            } catch (err) {
+                console.error('Error loading data cubes:', err);
+                document.getElementById('stat-cubo').textContent = '—';
+                document.getElementById('cubo-tbody').innerHTML = emptyRow(6, 'No se pudieron cargar los cubos de datos.');
+            }
+        }
+
+        function loadData() {
+            loadOntologias();
+            loadSkos();
+            loadCubosDatos();
         }
 
         function emptyRow(cols, msg) {
@@ -1104,7 +1162,17 @@
         }
 
         // ── SORT ────────────────────────────────────
-        const sortState = { catalogo: { col: null, dir: 1 }, skos: { col: null, dir: 1 } };
+        const sortState = {
+            catalogo: { col: null, dir: 1 },
+            skos: { col: null, dir: 1 },
+            cubo: { col: null, dir: 1 }
+        };
+
+        const tbodyByTable = {
+            catalogo: 'catalogo-tbody',
+            skos: 'skos-tbody',
+            cubo: 'cubo-tbody'
+        };
 
         function getCellText(tr, colIndex) {
             const td = tr.querySelectorAll('td')[colIndex];
@@ -1137,9 +1205,9 @@
             th.addEventListener('click', () => {
                 const tableKey = th.dataset.table;
                 const colIndex = parseInt(th.dataset.col, 10);
-                const tbodyId  = tableKey === 'catalogo' ? 'catalogo-tbody' : 'skos-tbody';
+                const tbodyId = tbodyByTable[tableKey];
+                if (!tbodyId) return;
 
-                // Update arrow classes within the same table's thead
                 th.closest('thead').querySelectorAll('th.sortable').forEach(h => h.classList.remove('asc', 'desc'));
                 const state = sortState[tableKey];
                 const nextDir = (state.col === colIndex) ? (state.dir * -1) : 1;
