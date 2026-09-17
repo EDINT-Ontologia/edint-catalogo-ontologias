@@ -6,7 +6,7 @@
     "vocabularios": [
       "edintinf"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-InfrastructureType.ttl"
+    "enlace": "https://edint.es/def/infraestructura/kos/skos-InfrastructureType.ttl"
   },
   {
     "lista": "Tipos de Servicio Público",
@@ -15,7 +15,7 @@
     "vocabularios": [
       "edintinf"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-PublicService.ttl"
+    "enlace": "https://edint.es/def/infraestructura/kos/skos-PublicService.ttl"
   },
   {
     "lista": "Tipos de Actividad Regular",
@@ -24,7 +24,7 @@
     "vocabularios": [
       "edintinf"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-RegularActivity.ttl"
+    "enlace": "https://edint.es/def/infraestructura/kos/skos-RegularActivity.ttl"
   },
   {
     "lista": "Tipos de Rol",
@@ -33,7 +33,7 @@
     "vocabularios": [
       "edintinf"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-RoleType.ttl"
+    "enlace": "https://edint.es/def/infraestructura/kos/skos-RoleType.ttl"
   },
   {
     "lista": "Tipos de Violación de Acceso",
@@ -42,7 +42,7 @@
     "vocabularios": [
       "edintinf"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-infraestructura/blob/main/kos/skos-ViolationType.ttl"
+    "enlace": "https://edint.es/def/infraestructura/kos/skos-ViolationType.ttl"
   },
   {
     "lista": "Tipos de Vehículo",
@@ -51,7 +51,7 @@
     "vocabularios": [
       "edintveh"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehicleType.ttl"
+    "enlace": "https://edint.es/def/censo-vehiculos/kos/skos-VehicleType.ttl"
   },
   {
     "lista": "Tipos de Propulsión de Vehículo",
@@ -60,7 +60,7 @@
     "vocabularios": [
       "edintveh"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePropulsionType.ttl"
+    "enlace": "https://edint.es/def/censo-vehiculos/kos/skos-VehiclePropulsionType.ttl"
   },
   {
     "lista": "Tipos de Distintivo Medioambiental",
@@ -69,7 +69,7 @@
     "vocabularios": [
       "edintveh"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehicleEnvironmentalBadge.ttl"
+    "enlace": "https://edint.es/def/censo-vehiculos/kos/skos-VehicleEnvironmentalBadge.ttl"
   },
   {
     "lista": "Tipos de Autorización de Vehículo",
@@ -78,7 +78,7 @@
     "vocabularios": [
       "edintveh"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitType.ttl"
+    "enlace": "https://edint.es/def/censo-vehiculos/kos/skos-VehiclePermitType.ttl"
   },
   {
     "lista": "Estados de Autorización de Vehículo",
@@ -87,7 +87,7 @@
     "vocabularios": [
       "edintveh"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitStatus.ttl"
+    "enlace": "https://edint.es/def/censo-vehiculos/kos/skos-VehiclePermitStatus.ttl"
   },
   {
     "lista": "Periodicidades de Autorización de Vehículo",
@@ -96,7 +96,7 @@
     "vocabularios": [
       "edintveh"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/blob/main/kos/skos-VehiclePermitPeriodicity.ttl"
+    "enlace": "https://edint.es/def/censo-vehiculos/kos/skos-VehiclePermitPeriodicity.ttl"
   },
   {
     "lista": "Estados de Instalación Fotovoltaica",
@@ -105,7 +105,7 @@
     "vocabularios": [
       "edintfotov"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-fotovoltaica/blob/main/kos/skos-PhotovoltaicSystemStatus.ttl"
+    "enlace": "https://edint.es/def/fotovoltaica/kos/skos-PhotovoltaicSystemStatus.ttl"
   },
   {
     "lista": "Tipos de Uso de Instalación Fotovoltaica",
@@ -114,7 +114,7 @@
     "vocabularios": [
       "edintfotov"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-fotovoltaica/blob/main/kos/skos-PhotovoltaicSystemUsageType.ttl"
+    "enlace": "https://edint.es/def/fotovoltaica/kos/skos-PhotovoltaicSystemUsageType.ttl"
   },
   {
     "lista": "Tipos de Medidor",
@@ -123,7 +123,7 @@
     "vocabularios": [
       "edintsum"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-suministro/blob/main/kos/skos-MeterType.ttl"
+    "enlace": "https://edint.es/def/suministro/kos/skos-MeterType.ttl"
   },
   {
     "lista": "Tipos de Suministro",
@@ -132,7 +132,7 @@
     "vocabularios": [
       "edintsum"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-suministro/blob/main/kos/skos-UtilityType.ttl"
+    "enlace": "https://edint.es/def/suministro/kos/skos-UtilityType.ttl"
   },
   {
     "lista": "Tipos de Emisor de Ruido Predominante",
@@ -141,7 +141,7 @@
     "vocabularios": [
       "edintacus"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-contaminacion-acustica/blob/main/kos/skos-EmitterPredominantType.ttl"
+    "enlace": "https://edint.es/def/contaminacion-acustica/kos/skos-EmitterPredominantType.ttl"
   },
   {
     "lista": "Tipos de Índice de Ruido",
@@ -150,7 +150,7 @@
     "vocabularios": [
       "edintacus"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-contaminacion-acustica/blob/main/kos/skos-NoiseRateType.ttl"
+    "enlace": "https://edint.es/def/contaminacion-acustica/kos/skos-NoiseRateType.ttl"
   },
   {
     "lista": "Intervalos de Referencia",
@@ -159,7 +159,7 @@
     "vocabularios": [
       "edintacus"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-contaminacion-acustica/blob/main/kos/skos-ReferenceInterval.ttl"
+    "enlace": "https://edint.es/def/contaminacion-acustica/kos/skos-ReferenceInterval.ttl"
   },
   {
     "lista": "Variables de Sensor",
@@ -168,7 +168,7 @@
     "vocabularios": [
       "edintmed"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-medio-ambiente/blob/main/kos/sensor-variables.ttl"
+    "enlace": "https://edint.es/def/medio-ambiente/kos/sensor-variables.ttl"
   },
   {
     "lista": "Características de Interés",
@@ -177,7 +177,7 @@
     "vocabularios": [
       "edintmed"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-medio-ambiente/blob/main/kos/feature-of-interest.ttl"
+    "enlace": "https://edint.es/def/medio-ambiente/kos/feature-of-interest.ttl"
   },
   {
     "lista": "Tipos de Acceso a Equipamientos",
@@ -186,7 +186,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-AccessType.ttl"
+    "enlace": "https://edint.es/def/censo-locales/kos/skos-AccessType.ttl"
   },
   {
     "lista": "Estados de Tramitación de la Licencia de Comercio",
@@ -195,7 +195,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitStatus.ttl"
+    "enlace": "https://edint.es/def/censo-locales/kos/skos-CommercialPermitStatus.ttl"
   },
   {
     "lista": "Tipos de Licencias Comerciales",
@@ -204,7 +204,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialPermitType.ttl"
+    "enlace": "https://edint.es/def/censo-locales/kos/skos-CommercialPermitType.ttl"
   },
   {
     "lista": "Situación de los Espacios Comerciales",
@@ -213,7 +213,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-CommercialSpaceStatus.ttl"
+    "enlace": "https://edint.es/def/censo-locales/kos/skos-CommercialSpaceStatus.ttl"
   },
   {
     "lista": "Periodos de Funcionamiento de Terrazas",
@@ -222,7 +222,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/blob/main/kos/skos-TerracePeriod.ttl"
+    "enlace": "https://edint.es/def/censo-locales/kos/skos-TerracePeriod.ttl"
   },
   {
     "lista": "Tipos de Campaña Comercial",
@@ -231,7 +231,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialCampaignType.ttl"
+    "enlace": "https://edint.es/def/promocion-comercial/kos/skos-CommercialCampaignType.ttl"
   },
   {
     "lista": "Tipos de Evento Comercial",
@@ -240,7 +240,7 @@
     "vocabularios": [
       "edintcom"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/blob/main/kos/skos-CommercialEventType.ttl"
+    "enlace": "https://edint.es/def/promocion-comercial/kos/skos-CommercialEventType.ttl"
   },
   {
     "lista": "Clasificación de Inmuebles Catastrales",
@@ -249,7 +249,7 @@
     "vocabularios": [
       "edintcat"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro/blob/main/kos/catastro-clase.ttl"
+    "enlace": "https://edint.es/def/catastro/kos/catastro-clase.ttl"
   },
   {
     "lista": "Usos de Inmuebles y Construcciones Catastrales",
@@ -258,7 +258,7 @@
     "vocabularios": [
       "edintcat"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro/blob/main/kos/catastro-use.ttl"
+    "enlace": "https://edint.es/def/catastro/kos/catastro-use.ttl"
   },
   {
     "lista": "Tipos de Transacción Inmobiliaria",
@@ -267,7 +267,7 @@
     "vocabularios": [
       "edintinm"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-transaction-type.ttl"
+    "enlace": "https://edint.es/def/oferta-inmobiliaria/kos/inmobiliaria-transaction-type.ttl"
   },
   {
     "lista": "Usos de Inmuebles de la Oferta Inmobiliaria",
@@ -276,7 +276,7 @@
     "vocabularios": [
       "edintinm"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria/blob/main/kos/inmobiliaria-uso.ttl"
+    "enlace": "https://edint.es/def/oferta-inmobiliaria/kos/inmobiliaria-uso.ttl"
   },
   {
     "lista": "Tipos de Contrato de Empleo",
@@ -285,7 +285,7 @@
     "vocabularios": [
       "edintemp"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-cubo-empleo/blob/main/kos/skos-contractType.ttl"
+    "enlace": "https://edint.es/def/empleo/kos/skos-contractType.ttl"
   },
   {
     "lista": "Tipo de Incidencia",
@@ -294,7 +294,7 @@
     "vocabularios": [
       "edinttraf"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico/blob/main/kos/skos-IncidenceType.ttl"
+    "enlace": "https://edint.es/def/trafico/kos/skos-IncidenceType.ttl"
   },
   {
     "lista": "Tipo de Equipo de Tráfico",
@@ -303,7 +303,7 @@
     "vocabularios": [
       "edinttraf"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-trafico/blob/main/kos/skos-TrafficEquipmentType.ttl"
+    "enlace": "https://edint.es/def/trafico/kos/skos-TrafficEquipmentType.ttl"
   },
   {
     "lista": "Tipos de cable en caja de conexiones",
@@ -312,7 +312,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-CableType.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-CableType.ttl"
   },
   {
     "lista": "Estado de conservación de farolas",
@@ -321,7 +321,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-ConservationStatus.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-ConservationStatus.ttl"
   },
   {
     "lista": "Régimen de iluminación",
@@ -330,7 +330,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-IlluminationRegime.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-IlluminationRegime.ttl"
   },
   {
     "lista": "Clases de iluminación según EN 13201",
@@ -339,7 +339,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-IlluminationType.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-IlluminationType.ttl"
   },
   {
     "lista": "Tipos de lámpara de alumbrado público",
@@ -348,7 +348,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LampType.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-LampType.ttl"
   },
   {
     "lista": "Clases luminotécnicas según EN 13201",
@@ -357,7 +357,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LightingClass.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-LightingClass.ttl"
   },
   {
     "lista": "Zonas de alumbrado según REEAE",
@@ -366,7 +366,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LightingZone.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-LightingZone.ttl"
   },
   {
     "lista": "Tipos de luminaria de alumbrado público",
@@ -375,7 +375,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-LuminaireType.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-LuminaireType.ttl"
   },
   {
     "lista": "Tipos de alimentación eléctrica",
@@ -384,7 +384,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-PowerSupplyType.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-PowerSupplyType.ttl"
   },
   {
     "lista": "Tipos de soporte de alumbrado público",
@@ -393,7 +393,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-SupportType.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-SupportType.ttl"
   },
   {
     "lista": "Período tarifario",
@@ -402,7 +402,7 @@
     "vocabularios": [
       "edintalu"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-alumbrado-publico/blob/main/kos/skos-TariffPeriod.ttl"
+    "enlace": "https://edint.es/def/alumbrado-publico/kos/skos-TariffPeriod.ttl"
   },
   {
     "lista": "Tipos de procedimientos administrativos",
@@ -411,7 +411,7 @@
     "vocabularios": [
       "edintserpub"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/blob/main/kos/skos-AdministrativeProcedures.ttl"
+    "enlace": "https://edint.es/def/servicios-publicos/kos/skos-AdministrativeProcedures.ttl"
   },
   {
     "lista": "Tipos de servicios públicos",
@@ -420,7 +420,7 @@
     "vocabularios": [
       "edintserpub"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/blob/main/kos/skos-PublicServices.ttl"
+    "enlace": "https://edint.es/def/servicios-publicos/kos/skos-PublicServices.ttl"
   },
   {
     "lista": "Nivel de administración",
@@ -429,7 +429,7 @@
     "vocabularios": [
       "edintorg"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-AdministrationLevel.ttl"
+    "enlace": "https://edint.es/def/organizaciones/kos/skos-AdministrationLevel.ttl"
   },
   {
     "lista": "Estado de organización",
@@ -438,7 +438,7 @@
     "vocabularios": [
       "edintorg"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-OrganizationStatus.ttl"
+    "enlace": "https://edint.es/def/organizaciones/kos/skos-OrganizationStatus.ttl"
   },
   {
     "lista": "Tipo de organización",
@@ -447,7 +447,7 @@
     "vocabularios": [
       "edintorg"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-organizaciones/blob/main/kos/skos-OrganizationType.ttl"
+    "enlace": "https://edint.es/def/organizaciones/kos/skos-OrganizationType.ttl"
   },
   {
     "lista": "Modalidad de asistencia",
@@ -456,7 +456,7 @@
     "vocabularios": [
       "edintagenda"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-attendance-mode.ttl"
+    "enlace": "https://edint.es/def/agenda/kos/skos-attendance-mode.ttl"
   },
   {
     "lista": "Estado del evento",
@@ -465,7 +465,7 @@
     "vocabularios": [
       "edintagenda"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-event-status.ttl"
+    "enlace": "https://edint.es/def/agenda/kos/skos-event-status.ttl"
   },
   {
     "lista": "Tipo de evento",
@@ -474,7 +474,7 @@
     "vocabularios": [
       "edintagenda"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-agenda/blob/main/kos/skos-event-type.ttl"
+    "enlace": "https://edint.es/def/agenda/kos/skos-event-type.ttl"
   },
   {
     "lista": "Estado del anclaje",
@@ -483,7 +483,7 @@
     "vocabularios": [
       "edintvehcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/refs/heads/main/kos/skos-DockState.ttl"
+    "enlace": "https://edint.es/def/vehiculos-compartidos/kos/skos-DockState.ttl"
   },
   {
     "lista": "Tipo de sistema de propulsión",
@@ -492,7 +492,7 @@
     "vocabularios": [
       "edintvehcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-PropulsionSystemType.ttl"
+    "enlace": "https://edint.es/def/vehiculos-compartidos/kos/skos-PropulsionSystemType.ttl"
   },
   {
     "lista": "Estado de la estación",
@@ -501,7 +501,7 @@
     "vocabularios": [
       "edintvehcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-StationState.ttl"
+    "enlace": "https://edint.es/def/vehiculos-compartidos/kos/skos-StationState.ttl"
   },
   {
     "lista": "Estado del vehículo",
@@ -510,7 +510,7 @@
     "vocabularios": [
       "edintvehcom"
     ],
-    "enlace": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/blob/main/kos/skos-VehicleState.ttl"
+    "enlace": "https://edint.es/def/vehiculos-compartidos/kos/skos-VehicleState.ttl"
   },
   {
     "lista": "Alcances de gestión",
@@ -519,7 +519,7 @@
     "vocabularios": [
       "waste"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-gestion-residuos/blob/main/kos/skos-ManagementScope.ttl"
+    "enlace": "https://edint.es/def/gestion-residuos/kos/skos-ManagementScope.ttl"
   },
   {
     "lista": "Procesos de tratamiento",
@@ -528,7 +528,7 @@
     "vocabularios": [
       "waste"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-gestion-residuos/blob/main/kos/skos-TreatmentProcess.ttl"
+    "enlace": "https://edint.es/def/gestion-residuos/kos/skos-TreatmentProcess.ttl"
   },
   {
     "lista": "Tipos de residuos",
@@ -537,6 +537,6 @@
     "vocabularios": [
       "waste"
     ],
-    "enlace": "https://github.com/EDINT-Ontologia/edint-ontologia-gestion-residuos/blob/main/kos/skos-WasteType.ttl"
+    "enlace": "https://edint.es/def/gestion-residuos/kos/skos-WasteType.ttl"
   }
 ]
