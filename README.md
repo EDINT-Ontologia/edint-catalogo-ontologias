@@ -3,6 +3,6 @@ Catálogo de ontologías EDINT para infraestructuras urbanas inteligentes, orien
 
 # Financiación (Funding)
 
-Este catalogo ha sido desarrollada en el contexto del Espacio de Datos para las Infraestructuras Urbanas Inteligentes ([EDINT](https://edint.es/)). 
+Este catálogo ha sido desarrollado en el contexto del Espacio de Datos para las Infraestructuras Urbanas Inteligentes ([EDINT](https://edint.es/)). 
 
 ![Logos](./resources/EDINT_UE_V-Color.png)
