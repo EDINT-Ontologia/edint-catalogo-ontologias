@@ -44,17 +44,17 @@
     "recursos": [
       {
         "nombre": "Repositorio",
-        "url": "https://github.com/telefonicasc/edint-ontologia-zonaregulatoria",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-zonaregulatoria",
         "icon": "fab fa-github"
       },
       {
         "nombre": "Issues",
-        "url": "https://github.com/telefonicasc/edint-ontologia-zonaregulatoria/issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-zonaregulatoria/issues",
         "icon": "fas fa-bug"
       },
       {
         "nombre": "Requisitos",
-        "url": "https://github.com/telefonicasc/edint-ontologia-zonaregulatoria/tree/main/requirements",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-zonaregulatoria/tree/main/requirements",
         "icon": "fas fa-file-alt"
       }
     ]
@@ -74,17 +74,17 @@
     "recursos": [
       {
         "nombre": "Repositorio",
-        "url": "https://github.com/telefonicasc/edint-ontologia-censovehiculos",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos",
         "icon": "fab fa-github"
       },
       {
         "nombre": "Issues",
-        "url": "https://github.com/telefonicasc/edint-ontologia-censovehiculos/issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/issues",
         "icon": "fas fa-bug"
       },
       {
         "nombre": "Requisitos",
-        "url": "https://github.com/telefonicasc/edint-ontologia-censovehiculos/tree/main/requirements",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-censovehiculos/tree/main/requirements",
         "icon": "fas fa-file-alt"
       }
     ]
@@ -314,17 +314,17 @@
     "recursos": [
       {
         "nombre": "Repositorio",
-        "url": "https://github.com/oeg-upm/edint-ontologia-turismo",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-turismo",
         "icon": "fab fa-github"
       },
       {
         "nombre": "Issues",
-        "url": "https://github.com/oeg-upm/edint-ontologia-turismo/issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-turismo/issues",
         "icon": "fas fa-bug"
       },
       {
         "nombre": "Requisitos",
-        "url": "https://github.com/oeg-upm/edint-ontologia-turismo/tree/main/requirements",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-turismo/tree/main/requirements",
         "icon": "fas fa-file-alt"
       }
     ]
@@ -344,17 +344,17 @@
     "recursos": [
       {
         "nombre": "Repositorio",
-        "url": "https://github.com/oeg-upm/edint-ontologia-censo-locales",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales",
         "icon": "fab fa-github"
       },
       {
         "nombre": "Issues",
-        "url": "https://github.com/oeg-upm/edint-ontologia-censo-locales/issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/issues",
         "icon": "fas fa-bug"
       },
       {
         "nombre": "Requisitos",
-        "url": "https://github.com/oeg-upm/edint-ontologia-censo-locales/tree/main/requirements",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/tree/main/requirements",
         "icon": "fas fa-file-alt"
       }
     ]
@@ -374,17 +374,17 @@
     "recursos": [
       {
         "nombre": "Repositorio",
-        "url": "https://github.com/oeg-upm/edint-ontologia-promocion-comercial",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial",
         "icon": "fab fa-github"
       },
       {
         "nombre": "Issues",
-        "url": "https://github.com/oeg-upm/edint-ontologia-promocion-comercial/issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/issues",
         "icon": "fas fa-bug"
       },
       {
         "nombre": "Requisitos",
-        "url": "https://github.com/oeg-upm/edint-ontologia-promocion-comercial/tree/main/requirements",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-promocion-comercial/tree/main/requirements",
         "icon": "fas fa-file-alt"
       }
     ]
@@ -404,17 +404,17 @@
     "recursos": [
       {
         "nombre": "Repositorio",
-        "url": "https://github.com/oeg-upm/edint-ontologia-catastro",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro",
         "icon": "fab fa-github"
       },
       {
         "nombre": "Issues",
-        "url": "https://github.com/oeg-upm/edint-ontologia-catastro/issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro/issues",
         "icon": "fas fa-bug"
       },
       {
         "nombre": "Requisitos",
-        "url": "https://github.com/oeg-upm/edint-ontologia-catastro/tree/main/requirements",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-catastro/tree/main/requirements",
         "icon": "fas fa-file-alt"
       }
     ]
@@ -434,17 +434,17 @@
     "recursos": [
       {
         "nombre": "Repositorio",
-        "url": "https://github.com/oeg-upm/edint-ontologia-oferta-inmobiliaria",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria",
         "icon": "fab fa-github"
       },
       {
         "nombre": "Issues",
-        "url": "https://github.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria/issues",
         "icon": "fas fa-bug"
       },
       {
         "nombre": "Requisitos",
-        "url": "https://github.com/oeg-upm/edint-ontologia-oferta-inmobiliaria/tree/main/requirements",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-oferta-inmobiliaria/tree/main/requirements",
         "icon": "fas fa-file-alt"
       }
     ]
@@ -614,17 +614,17 @@
     "recursos": [
       {
         "nombre": "Repositorio",
-        "url": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-vehiculos-compartidos",
         "icon": "fab fa-github"
       },
       {
         "nombre": "Issues",
-        "url": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/issues",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-vehiculos-compartidos/issues",
         "icon": "fas fa-bug"
       },
       {
         "nombre": "Requisitos",
-        "url": "https://github.com/oeg-upm/edint-ontologia-vehiculos-compartidos/tree/main/requirements",
+        "url": "https://github.com/EDINT-Ontologia/edint-ontologia-vehiculos-compartidos/tree/main/requirements",
         "icon": "fas fa-file-alt"
       }
     ]
