@@ -243,6 +243,15 @@
     "enlace": "https://edint.es/def/promocion-comercial/kos/skos-CommercialEventType.ttl"
   },
   {
+  "lista": "Tipos de Eventos Comerciales",
+  "descripcion": "Esquema de conceptos SKOS que agrupa los distintos tipos de eventos y campañas de promoción comercial de un municipio. Permite clasificar las iniciativas destinadas a incentivar el consumo, fomentar la actividad económica y dinamizar el comercio local. Incluye las categorías: bono, descuento y dinamización.",
+  "dominio": "Economía y sociedad",
+  "vocabularios": [
+    "edintcom"
+  ],
+  "enlace": "https://edint.es/def/promocion-comercial/kos/skos-CommercialCampaignType.ttl"
+  },
+  {
     "lista": "Clasificación de Inmuebles Catastrales",
     "descripcion": "Esquema de conceptos que agrupa las clasificaciones de inmuebles según el Catastro Inmobiliario Español. Basado en los Artículos 7 y 8 de la Ley del Catastro (RDLeg 1/2004). Incluye las clasificaciones: urbano, rústico y BICES.",
     "dominio": "Geoespacial y localización",
