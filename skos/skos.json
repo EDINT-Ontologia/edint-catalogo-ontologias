@@ -162,7 +162,7 @@
     "enlace": "https://edint.es/def/contaminacion-acustica/kos/skos-NoiseReferenceInterval.ttl"
   },
   {
-    "lista": "Variables de Sensor",
+    "lista": "Propiedades y Magnitudes Medioambientales",
     "descripcion": "Esquema de conceptos agrupando magnitudes medidas por sensores en entornos urbanos. Vocabulario jerárquico de propiedades físicas, químicas y acústicas (meteorológicas, calidad del aire, acústicas, agua, suelo, tráfico, energía, residuos) con unidades QUDT asociadas.",
     "dominio": "Sensores e IoT",
     "vocabularios": [
@@ -229,18 +229,9 @@
     "descripcion": "Esquema de conceptos que agrupa los tipos de campaña comercial. Incluye bono, descuento y revitalización.",
     "dominio": "Economía y sociedad",
     "vocabularios": [
-      "edintcom"
+      "edintpro"
     ],
     "enlace": "https://edint.es/def/promocion-comercial/kos/skos-CommercialCampaignType.ttl"
-  },
-  {
-    "lista": "Tipos de Evento Comercial",
-    "descripcion": "Esquema de conceptos que agrupa los tipos de evento comercial. Incluye feria, mercado temático y evento local.",
-    "dominio": "Economía y sociedad",
-    "vocabularios": [
-      "edintcom"
-    ],
-    "enlace": "https://edint.es/def/promocion-comercial/kos/skos-CommercialEventType.ttl"
   },
   {
     "lista": "Clasificación de Inmuebles Catastrales",
@@ -517,7 +508,7 @@
     "descripcion": "Esquema de conceptos para los alcances de gestión asociados a centros de gestión de residuos.",
     "dominio": "Medio ambiente y sostenibilidad",
     "vocabularios": [
-      "waste"
+      "edintres"
     ],
     "enlace": "https://edint.es/def/gestion-residuos/kos/skos-WasteManagementScope.ttl"
   },
@@ -526,7 +517,7 @@
     "descripcion": "Esquema de conceptos para los procesos de tratamiento aplicados en centros de gestión de residuos.",
     "dominio": "Medio ambiente y sostenibilidad",
     "vocabularios": [
-      "waste"
+      "edintres"
     ],
     "enlace": "https://edint.es/def/gestion-residuos/kos/skos-WasteTreatmentProcess.ttl"
   },
@@ -535,8 +526,80 @@
     "descripcion": "Esquema de conceptos para los tipos de residuos gestionados, aceptados o recogidos.",
     "dominio": "Medio ambiente y sostenibilidad",
     "vocabularios": [
-      "waste"
+      "edintres"
     ],
     "enlace": "https://edint.es/def/gestion-residuos/kos/skos-WasteType.ttl"
+  },
+  {
+    "lista": "Tipos de Zona Regulada",
+    "descripcion": "Esquema de conceptos para zonas sujetas a regulación. Incluye zonas de bajas emisiones, peatonales, de acceso restringido, de estacionamiento regulado, de carga y descarga, de congestión, de interés económico, de ocio y zonas verdes, entre otras.",
+    "dominio": "Movilidad y transporte",
+    "vocabularios": [
+      "edintzone"
+    ],
+    "enlace": "https://edint.es/def/zona-regulatoria/kos/skos-RegulatedZoneType.ttl"
+  },
+  {
+    "lista": "Gravedad de las Infracciones de Tráfico",
+    "descripcion": "Esquema de conceptos para de las infracciones de tráfico de vehículos en leve, grave y muy grave.",
+    "dominio": "Movilidad y transporte",
+    "vocabularios": [
+      "edinttraf"
+    ],
+    "enlace": "https://edint.es/def/trafico/kos/skos-TrafficViolationSeverity.ttl"
+  },
+  {
+    "lista": "Tipos de Infracción de Tráfico",
+    "descripcion": "Esquema de conceptos de las infracciones de tráfico relativas a circulación, autorización de circulación, seguro, condiciones técnicas del vehículo y alcohol y drogas. Incluye exceso de velocidad y consumo de alcohol.",
+    "dominio": "Movilidad y transporte",
+    "vocabularios": [
+      "edinttraf"
+    ],
+    "enlace": "https://edint.es/def/trafico/kos/skos-TrafficViolationType.ttl"
+  },
+  {
+    "lista": "Ponderaciones del Nivel de Presión Sonora",
+    "descripcion": "Esquema de conceptos las ponderaciones frecuenciales A y C utilizadas para expresar el nivel de presión sonora. La ponderación A se ajusta a la sensibilidad del oído humano; la C atenúa menos las bajas frecuencias.",
+    "dominio": "Sensores e IoT",
+    "vocabularios": [
+      "edintacus"
+    ],
+    "enlace": "https://edint.es/def/contaminacion-acustica/kos/skos-NoisePonderation.ttl"
+  },
+  {
+    "lista": "Constantes de Tiempo del Nivel de Presión Sonora",
+    "descripcion": "Esquema de conceptos de las constantes de tiempo utilizadas para medir el nivel de presión sonora: rápida (Fast), lenta (Slow) e impulso (Impulse).",
+    "dominio": "Sensores e IoT",
+    "vocabularios": [
+      "edintacus"
+    ],
+    "enlace": "https://edint.es/def/contaminacion-acustica/kos/skos-NoiseTimeConstantType.ttl"
+  },
+  {
+    "lista": "Tipos de Sensor Medioambiental",
+    "descripcion": "Esquema de conceptos de los sensores por su dominio de medición: sensor climático, sensor de calidad del aire y sensor de ruido.",
+    "dominio": "Sensores e IoT",
+    "vocabularios": [
+      "edintmed"
+    ],
+    "enlace": "https://edint.es/def/medio-ambiente/kos/skos-SensorTypes.ttl"
+  },
+  {
+    "lista": "Clasificación Nacional de Actividades Económicas (CNAE-2025)",
+    "descripcion": "Esquema de actividades económicas identificada como CNAE-2025 en los metadatos del archivo. Organiza las actividades en seis niveles jerárquicos, con códigos de notación, etiquetas y notas explicativas para caracterizar la actividad económica de los locales.",
+    "dominio": "Economía y sociedad",
+    "vocabularios": [
+      "edintcom"
+    ],
+    "enlace": "https://edint.es/def/censo-locales/kos/clasificaciones_cnae2025.ttl"
+  },
+  {
+    "lista": "Clasificación de Actividades Económicas del IAE",
+    "descripcion": "Esquema de las actividades del Impuesto sobre Actividades Económicas. Organiza las actividades empresariales, profesionales y artísticas en secciones, divisiones, agrupaciones, grupos y epígrafes, con códigos de notación y relaciones jerárquicas.",
+    "dominio": "Economía y sociedad",
+    "vocabularios": [
+      "edintcom"
+    ],
+    "enlace": "https://edint.es/def/censo-locales/kos/skos_IAE_Rates.ttl"
   }
 ]
