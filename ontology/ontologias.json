@@ -362,7 +362,7 @@
   {
     "vocabulario": "Ontología de Promoción Comercial",
     "descripcion": "Ontología para la representación del dominio de las promociones comerciales, incluyendo eventos y campañas. Proporciona un vocabulario común para los datos relacionados con la promoción comercial. Quedan fuera del alcance otros aspectos del comercio como el censo de locales comerciales, objeto de una ontología específica dentro del mismo proyecto EDINT.",
-    "prefijo": "edintcom",
+    "prefijo": "edintpro",
     "documentacion": "https://edint.es/def/promocion-comercial",
     "formatos": [
       {
