@@ -632,7 +632,7 @@
   {
     "vocabulario": "Ontología de Gestión de Residuos",
     "descripcion": "Ontología para la representación de la gestión de residuos. Describe elementos asociados a la gestión de residuos y permite representar información relativa a su tipología, su depósito en contenedores y puntos de recogida, su tratamiento en instalaciones y su localización, junto con otros aspectos relevantes. Su alcance se limita a la representación de datos de carácter administrativo y estructural.",
-    "prefijo": "waste",
+    "prefijo": "edintres",
     "documentacion": "https://edint.es/def/gestion-residuos",
     "formatos": [
       {
